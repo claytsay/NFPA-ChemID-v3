@@ -20,9 +20,9 @@ public class Chemical {
     // VARIABLES AND DATA
     // --------------------
     private String name;
-    private EnumMap<ChemProp, Integer> properties = new EnumMap<ChemProp, Integer>(ChemProp.class);
-    private EnumMap<ChemSpecial, Boolean> specials = new EnumMap<ChemSpecial, Boolean>(ChemSpecial.class);
-    private EnumMap<ChemID, String> ids = new EnumMap<ChemID, String>(ChemID.class);
+    private EnumMap<ChemProp, Integer> properties = new EnumMap<>(ChemProp.class);
+    private EnumMap<ChemSpecial, Boolean> specials = new EnumMap<>(ChemSpecial.class);
+    private EnumMap<ChemID, String> ids = new EnumMap<>(ChemID.class);
 
 
 
@@ -50,6 +50,7 @@ public class Chemical {
 
     /**
      * Constructs an instance of {@code Chemical} with special symbols.
+     * TODO: Maybe depreciate this function, instead requesting an EnumMap as an argument
      *
      * @param chemName name of the chemical
      * @param health health rating of the chemical
@@ -64,15 +65,10 @@ public class Chemical {
         try {
             if(special.length != 3) {
                 throw new ArrayIndexOutOfBoundsException();
-            }
-            if(special[0]) {
-                isOX = true;
-            }
-            if(special[1]) {
-                isSA = true;
-            }
-            if(special[2]) {
-                isW = true;
+            } else {
+                specials.put(OXIDIZER, special[0]);
+                specials.put(SIMPLE_ASPHYXIANT, special[1]);
+                specials.put(WATER_REACT, special[2]);
             }
         } catch (ArrayIndexOutOfBoundsException e){
             System.out.println("special array is wrong size");
@@ -158,7 +154,7 @@ public class Chemical {
     /**
      * Gets all of the presences of the special hazard symbols of the chemical.
      * <p>
-     *     Returns all the numbers inside the coloured diamonds of the overall fire diamond as
+     *     Returns all the special hazard symbols inside the white diamond of the overall fire diamond as
      *     an <tt>EnumMap</tt> utilizing <tt>ChemSpecial</tt> enums.
      * </p>
      * @return all of the presences of the special hazard symbols as an <tt>EnumMap<ChemSpecial, Boolean></tt>
@@ -182,11 +178,11 @@ public class Chemical {
      * @return true if the NFPA values are the same, false if not
      */
     public boolean equalsNFPA(Chemical chem) {
-        // Maybe implement way to ignore special
+        // TODO: Maybe implement way to ignore special
         boolean propSame = this.getProps().equals(chem.getProps());
-        boolean specialSame = true;
+        boolean specialSame = this.getSpecials().equals(chem.getSpecials());
 
-        return true;
+        return propSame && specialSame;
     }
 
     /**
@@ -197,7 +193,8 @@ public class Chemical {
      *
      * @return the accessed CID as an {@code int}
      */
-    public int genChemCID() {
+    public int genChemID(ChemID id) {
+        // TODO: Make this use the new IDGet class
         /*int CIDTemp;
         if(name != null && !name.equals("")) {
             CIDTemp = IDGet.requestID(name, ChemID.CID);
