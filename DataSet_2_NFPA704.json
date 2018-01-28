@@ -1,0 +1,3859 @@
+[
+ {
+   "FIELD1": "Acetal",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acetaldehyde",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acetic Acid (glacial)",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acetic Anhydride",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Acetone",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acetonitrile",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acetophenone",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acetyl Chloride",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Acetylene",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acetyl Peroxide",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acrolein",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acrolein Dimer",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acrylic Acid (glacial)",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Acrylonitrile",
+   "FIELD2": "4",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Adipic Acid",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Adiponitrile",
+   "FIELD2": "4",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Aldol",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Allyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Allyl Alcohol",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Allyl Bromide",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Allyl Chloride",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Aluminum (dust or powder)",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "3-Aminopropanol",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ammonia, Anhydrous",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ammonium Bromide",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ammonium Chloride",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ammonium Fluoride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ammonium Nitrate",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Ammonium Perchlorate",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "4",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Ammonium Permanganate",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Ammonium Sulfate",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amyl Alcohol",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amylamine",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amylbenzene",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amyl Chloride",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amyl Ether",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amyl Maleate",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amyl Nitrate",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "o-Amyl Phenol",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amyl Propionate",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amyl Stearate",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Amyl Toluene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Aniline",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "o-Anisidine",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Anisole",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Antimony Pentafluoride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Antimony Pentasulfide",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Arsenic Chloride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Arsenic Trisulfide",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Barium Chlorate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Barium Nitrate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Barium Peroxide",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Benzaldehyde",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Benzoic Acid",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "-",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Benzol (benzene)",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Benzotrifluoride",
+   "FIELD2": "4",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Benzoyl Chloride",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Benzyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Benzyl Alcohol",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Benzyl Cyanide",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Benzyl Salicilate",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Beryllium (dust or powder)",
+   "FIELD2": "4",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Biphenyl",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Boron Trifluoride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Bromine",
+   "FIELD2": "4",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Bromine Trifluoride",
+   "FIELD2": "4",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "OX, W"
+ },
+ {
+   "FIELD1": "Bromobenzene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "o-Bromotoluene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butadiene Monoxide",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1-Butane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butenediol",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Acetoacetate",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Acrylate",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Alcohol",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butylamine",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butylamine Oleate",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butylbenzene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Benzoate",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Bromide",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Chloride",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butylcyclohexane",
+   "FIELD2": "0",
+   "FIELD3": "-",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyldecalin",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Formate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "N-Butyl Isocyanate",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Isovalerate",
+   "FIELD2": "0",
+   "FIELD3": "-",
+   "FIELD4": "-",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Lactate",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Methacrylate",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Naphthalene",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Nitrate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Oxalate",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Propionate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Stearate",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyl Trichlorosilane",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyraldehyde",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyraldol",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyraldoxime",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Butyric Acid",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Calcium Carbide",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Calcium Chlorate",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Calcium Cyanide",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Calcium Hypochlorite",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Calcium Oxide",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Camphor",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Caproic Acid",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Capryladehyde",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Caprylyl Chloride",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Carbon Disulfide",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Carbon Monoxide",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Carbon Tetrachloride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Castor Oil",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Chlorine",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Chlorine Monoxide",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Chloroacetic Acid",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Chloroaceto Phenone",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Chlorobenzene",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Chloroform",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Chloropicrin",
+   "FIELD2": "4",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Chlorotoluene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Chromic Acid",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "1",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Citral",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cobalt Naphtha",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Coconut Oil",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cod Liver Oil",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Corn Oil",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Creosote Oil",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "o-Cresol",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Crotonaldehyde",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Crotonic Acid",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Crotononitrile",
+   "FIELD2": "-",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cumene",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cupric Nitrate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Cyanogen",
+   "FIELD2": "4",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyanogen Bromide",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclobutane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclohexane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclohexanol",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclohexanone",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclohexene",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclohexenone",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclohexyl Chloride",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclopentane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclopentene",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclopentanone",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Cyclopropane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Decaborane",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Decane",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Decanol",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1-Decene",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Decylamine",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dehydroacetic Acid",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Denatured Alcohol",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Deuterium",
+   "FIELD2": "0",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diacetone Alcohol",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diamyl Sulfide",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dibenzoyl Peroxide",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "4",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Diborane",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Dibutylamine",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dibutyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dibutyl Oxalate",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dibutyl Phosphite",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dibutyl Phthalate",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "o-Dichlorobenzene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1,2-Dichlorobutane",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1,1-Dichloroethene",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1,2-Dichloroethylene",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dichlorosilane",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Didecyl Ether",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diesel Fuel Oil No. 1",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diethylamine",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diethylene Glycol Dimethyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diethylene Triamine",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diethyl Fumarate",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diethyl Ketone",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diethyl Succinate",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diethyl Sulfate",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diethylzinc",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Dihexylamne",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diisobutylamine",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diisobutyl Carbinol",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diisobutyl Ketone",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diisooctyl Phthalate",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diisopropylamine",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diisopropyl Benzene",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diketene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dimethylamine",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "N, N-Dimethylaniline",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "2,2-Dimethylbutane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dimethyldioxane",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "N, N-Dimethylformamide",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dimethyl Maleate",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "2,3-Dimethyloctane",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "2,3-Dimethylpentane",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dimethyl Phthalate",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dimethyl Sulfate",
+   "FIELD2": "4",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "dimethyl Sulfide",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dimethyl Sulfoxide",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dinitrobenzene (ortho)",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "4",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "2,4-Dinitrotoluene",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dioctyl Ether",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "p-Dioxane",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dioxolane",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dipentene",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diphenylamine",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Diphenyl Phthalate",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dipropylamine",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Divinylbenzene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Divinyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Dodecane",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1-Dodecanethiol",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1-Dodecanol",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Endrin (dry)",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Epichlorohydrin",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethanolamine",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethoxybenzene",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "3-Ethoxypropanal",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Acrylate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Alcohol",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylamine",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylbenzene",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Benzoate",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Borate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Bromide",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylbutylamine",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Butyl Carbonate",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Butyl Ketone",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Butyrate",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Caprylate",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Chloride",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Crotonate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylcyclohexane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylene",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylenediamine",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylene Dichloride",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylene Glycol",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylene Glycol Dibutyl Ether",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylene Glycol Ethylbutyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylene Glycol Monobutyl Ether Acetate",
+   "FIELD2": "0",
+   "FIELD3": "",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethylene Oxide",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Formate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Isobutyrate",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Mercaptan",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "4-Ethylmorpholine",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Nitrate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "4",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Oxalate",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Propionate",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Ethyl Silicate",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Fluorine",
+   "FIELD2": "4",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "W, OX"
+ },
+ {
+   "FIELD1": "Formaldehyde (water solution)",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Formamide",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "-",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Formic Acid",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Furan",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Furfuryl Alcohol",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Gas, Natural",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Gasoline 56-100 Octane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Glycerine",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Glycidyl Acrylate",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Heptane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "2-Heptanol",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Heptylene",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hexadecane",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hexanal",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hexane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "3-Hexanone",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1-Hexene",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hexyl Alcohol",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hexyl Methacrylate",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hydrazine (Anhydrous)",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hydrocyanic Acid-96%",
+   "FIELD2": "4",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hydrogen",
+   "FIELD2": "0",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hydrochloric Acid",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hydrobromic Acid",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hydrofluoric Acid",
+   "FIELD2": "4",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hydrogen Peroxide(35% to 52% byweight)",
+   "FIELD2": "1",
+   "FIELD3": "OX",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hydrogen Sulfide",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Hydroquinone",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isoamyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isoamyl Alcohol",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isobutane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isobutyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isobutyl Acrylate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isobutyl Alcohol",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isobutylbenzene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isobutyl Chloride",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isobutyl Methyl Ketone",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isobutyraldehyde",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isobutyric Acid",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isobutyric Anhydride",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Isodecaldehyde",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isodecanoic Acid",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isohexane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isooctane",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isooctanoic Acid",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isooctyl Alcohol",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isopentane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isophorone",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isoprene",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isopropyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isopropyl Alcohol",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isopropyl Chloride",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Isopropyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jet Fuels (JP-4)",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Jet Fuels (JP-5)",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Lanolin",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Lead Arsenates",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Lead Nitrate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Lead Thiocyanate",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Lithium",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Lithium Hydride",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Lubricating Oil, Mineral",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Magnesium (including all alloys)",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "W",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Magnesium Nitrate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Magnesium Perchlorate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Maleic Anhydride",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mercuric Cyanide",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mesityl Oxide",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methacrylic Acid",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Acrylate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methylal",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Alcohol",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methylamine",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Amyl Ketone",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Benzoate",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Borate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Bromide",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Butyl Ketone",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Carbonate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Cellosolve Acetate",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Chloride",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Chloroacetate",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methylcyclohexane",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methylcyclohexanone",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methylcyclopentane",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methylene Chloride",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methylene Diisocyanate",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Methyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Ethyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Ethyl Ketone",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Formate",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Glycol Acetate",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Hexyl Ketone",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methylhydrazine",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Isoamyl Ketone",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Isobutyl Carbinol",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Isobutyl Ketone",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Isocyanate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Methyl Lactate",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Mercaptan",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Methacrylate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Parathion (solid)",
+   "FIELD2": "4",
+   "FIELD3": "1",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "2-Methyl-1-Pentene",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Phenylacetate",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1-Methyl Piperazine",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Propionate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Propyl Ketone",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "2-Methylpyrazine",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methylpyrrole",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methylpyrrolidine",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Salicylate",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Stearate",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Toluene Sulfonate",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Methyl Vinyl Ketone",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mineral Oil",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mineral Spirits",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Morpholine",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Mustard Oil",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Naptha",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Napthalene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nickel Carbonyl",
+   "FIELD2": "4",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nicotine",
+   "FIELD2": "4",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nitric Acid",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "p-Nitroaniline",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nitrobenzene",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nitrobiphenyl",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nitrochlorobenzene",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nitroethane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nitrogen (liquified)",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nitrogen Peroxide",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Nitrogen Trioxide",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Nitroglycerine",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "4",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nitromethane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1-Nitropropane",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "o-Nitrotoluene",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "4",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nonadecane",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nonane",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nonene",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Nonylbenzene",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Octadecane",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Octane",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "2-Octanol",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1-Octene",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Oleic Acid",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Olive Oil",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Oxalic Acid",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Oxygen (liquid)",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Paraffin Oil",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Paraformaldehyde",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Paraldehyde",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Parathion",
+   "FIELD2": "4",
+   "FIELD3": "1",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Pentaborane",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Pentachlorophenol (dry)",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Pentane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Pentanoic acid",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Pentaphen",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1-Pentene",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Perchloric Acid",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "3",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Perchloroethylene",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Petroleum, Crude",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Petroleum Ether",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phenol",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phenylacetaldehyde",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phenyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phenylacetic Acid",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "o-Phenylenediamine",
+   "FIELD2": "-",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phenylhydrazine",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phenylpropyl Alcohol",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phosgene",
+   "FIELD2": "4",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phosphine",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phosphoric Acid",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phosphorus Pentasulfide",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Phosphorus, Red",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phosphorus Trichloride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Phosphorus, White or Yellow",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phosphoryl Chloride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Phthalic Acid",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Phthalic Anhydride",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Picric Acid",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "4",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Pine Oil",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Pine Tar",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Piperazine",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Piperidine",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Potassium",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Potassium Bromate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Potassium Chlorate",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Potassium Cyanide",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Potassium Hydroxide (lye)",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Potassium Nitrate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Potassium Permanganate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Potassium Peroxide",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "W, OX"
+ },
+ {
+   "FIELD1": "Potassium Persulfate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Potassium Sulfide",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propionic Acid",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propionyl Chloride",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propyl Acetate",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propyl Alcohol",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propylamine",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propyl Chloride",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propylene",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propylene Dichloride",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propylene glycol",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propylene Oxide",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "n-Propyl Ether",
+   "FIELD2": "-",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Propyl Nitrate",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Pyridine",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Pyrrole",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Pyrrolidine",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Quinoline",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Resorcinol",
+   "FIELD2": "-",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Rhodinol",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Salicylic Acid",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Silane",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Silver Nitrate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Sodium",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Sodium Chlorate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Sodium Chlorite",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "2",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Sodium Cyanide",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sodium Fluoride",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sodium Hydride",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Sodium Hydroxide (lye)",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sodium Nitrate",
+   "FIELD2": "1",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Sodium Perchlorate",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Sodium Peroxide",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "OX, W"
+ },
+ {
+   "FIELD1": "Sodium-Potassium Alloys",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Sodium Sulfide",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Stannic Chloride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Stearic Acid",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Stearyl Alcohol",
+   "FIELD2": "0",
+   "FIELD3": "-",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Stoddard Solvent",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Styrene",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sulfur",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sulfur Chloride",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Sulfur Dioxide",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Sulfuric Acid",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Tannic Acid",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Terephthaloyl Chloride",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tetrachlorobenzene",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": "0"
+ },
+ {
+   "FIELD1": "Tetrachloroethylene",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tetradecanol",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tetraethylene Glycol",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tetraethyl Lead, Compounds",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tetrafluoroethylene",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tetrahydrofuran",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tetramethyl Lead, Compounds",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "3",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Thionyl Chloride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Thiophene",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Titanium Tetrachloride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Toluene",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Toluene-2,4-Diisocyanate",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "o-Toluidine",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Trimylamine",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Triamylbenzene",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tributylamine",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tributyl Phosphate",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tributylphosphine",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tributyl Phosphite",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "1,1,1-Trichloroethane",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Trichloroethylene",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Trichloroethylsilane",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Trichlorosilane",
+   "FIELD2": "3",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Triethanolamine",
+   "FIELD2": "2",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Triethylamine",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Triethyl Phosphate",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Triisobutyl Borate",
+   "FIELD2": "3",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Trimethylamine",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Trimethylchlorosilane",
+   "FIELD2": "3",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Trinitrobenzene",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "4",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Trinitrotoluene (tnt)",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "4",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Trioxane",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Triphenylmethane",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tripropylene",
+   "FIELD2": "0",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Tripropylene Glycol",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Turpentine",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "2-Undecanol",
+   "FIELD2": "1",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Valeraldehyde",
+   "FIELD2": "1",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vanadium Tetrachloride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "W"
+ },
+ {
+   "FIELD1": "Vinyl Acetate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinyl Bromide",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinyl Butyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinyl Chloride",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinyl Crotonate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinyl Ethyl Alcohol",
+   "FIELD2": "0",
+   "FIELD3": "2",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinyl Ethyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinyl Fluoride",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinylidene Chloride",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinylidene fluoride",
+   "FIELD2": "1",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinyl Methyl Ether",
+   "FIELD2": "2",
+   "FIELD3": "4",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinyl Propionate",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "2",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Vinyl Toluene",
+   "FIELD2": "2",
+   "FIELD3": "2",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "o-Xylene",
+   "FIELD2": "2",
+   "FIELD3": "3",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "o-Xylidine",
+   "FIELD2": "3",
+   "FIELD3": "1",
+   "FIELD4": "0",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Zinc (powder or dust)",
+   "FIELD2": "0",
+   "FIELD3": "1",
+   "FIELD4": "1",
+   "FIELD5": ""
+ },
+ {
+   "FIELD1": "Zinc Chlorate",
+   "FIELD2": "2",
+   "FIELD3": "0",
+   "FIELD4": "2",
+   "FIELD5": "OX"
+ },
+ {
+   "FIELD1": "Zirconium Tetrachloride",
+   "FIELD2": "3",
+   "FIELD3": "0",
+   "FIELD4": "1",
+   "FIELD5": ""
+ }
+]

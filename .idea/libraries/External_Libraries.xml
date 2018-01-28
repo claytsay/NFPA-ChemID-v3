@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="External Libraries">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../External Libraries/JSON-java-master" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,361 @@
+Acetaldehyde,2,4,2,
+Acetic acid (glacial),2,2,0,
+Acetic anhydride,2,2,1,
+Acetone,2,3,0,
+Acetone cyanohydrin,3,2,2,
+Acetonitrile,3,3,0,
+Acetophenone,1,2,0,
+Acetyl chloride,3,3,2,w
+Acetylene,1,4,3,
+"Acrolein, inhibited",3,3,3,
+Acrylamide,3,2,2,
+Acrylic acid (glacial),3,2,2,
+Acrylonitrile,4,3,2,
+Adiponitrile,4,2,1,
+Alkylaluminums,3,4,3,w
+Ally Chlorocarbonate,3,3,1,
+Ally alcohol,3,3,1,
+Ally bromide,3,3,1,
+Ally chloride,3,3,1,
+Allylamine,3,3,1,
+Aluminum,0,1,1,
+Aluminum Chloride,3,0,2,w
+Aluminum Phosphide,3,4,2,w
+Ammonia (anhydrous),3,1,0,
+Ammonium Dichromate,2,1,1,ox
+Ammonium Fluoride,3,0,0,
+Ammonium Nitrate,1,0,3,ox
+Ammonium Perchlorate,1,0,4,ox
+Ammonium Permanganate,1,0,3,ox
+Amyl Mercaptan,2,3,0,
+Amyl Nitrate,2,2,0,
+Amylamine,2,3,0,
+Aniline,3,2,0,
+Antimony pentachloride,3,0,1,
+Antimony Pentafluoride,3,0,1,
+"Antimony Sulfide, solid",2,1,1,
+Arsenic Pentafluoride,4,0,1,
+Arsenic Pentoxide,2,0,0,
+Arsenic Trichloride,3,0,0,
+Arsenic Trioxide,2,0,0,
+Arsenic Trisulfide,2,0,0,
+Arsine,4,4,2,
+Barium Chlorate,2,0,1,ox
+Benzaldehyde,2,2,0,
+Benzene,2,3,0,
+Benzotrifluoride,3,3,1,
+Benzoyl Chloride,3,2,2,w
+Beryllium Metal,3,1,0,
+Boron Tribromide,3,0,2,w
+Boron Trifluoride,3,0,1,
+Bromine,3,0,0,ox
+Bromine Pentafluoride,4,0,3,"w, ox"
+Bromine Trifluoride,4,0,3,"w, ox"
+"Bromopentane, 1-",1,3,0,
+"Bromopropyne, 3-",4,3,4,
+"Butadiene, inhibited",2,4,2,
+"Butanol, 1-",1,3,0,
+"Butanol, 2-",1,3,0,
+"Butyl Acrylate, inhibited",2,2,2,
+Butyl Ether,2,3,1,
+"Butyl acetate, n-",1,3,0,
+"Butyl acetate, s-",1,3,0,
+Butylamine,3,3,0,
+Butylene Oxide,2,3,2,
+Butyllithium,3,4,2,w
+Butyraldehyde,2,3,2,
+Butyric Acid,3,2,0,
+Calcium Carbide,1,3,2,w
+Calcium Chlorate,1,0,1,ox
+"Calcium Cyanide, solid",3,0,1,
+Calcium Hypochlorite,1,0,2,ox
+Calcium Oxide,1,0,1,
+"Calcium, metal",1,1,2,w
+Carbon Disulfide,2,4,0,
+Carbon Monixide,3,4,0,
+Carbon Tetrachloride,3,0,0,
+Chlorine,3,0,0,ox
+Chlorine Trifluoride,4,0,3,"w, ox"
+Chloroacetic Acid,3,1,0,
+Chloroacetonitrile,3,2,0,
+Chloroacetyl Chloride,3,0,1,
+Chlorobenzene,2,3,0,
+Chlorodiethyl Silane,3,3,1,
+Chloroform,2,0,0,
+"Chlorophenols, liquid",3,2,0,
+"Chlorophenols, solids",3,1,0,
+"Chloropicrin, liquid",4,0,3,
+Chlorosilanes,3,3,2,w
+Chlorosulfonic Acid,3,0,2,"w, ox"
+"Chromic Acid, solid",3,0,1,ox
+Chromic chloride,3,0,0,
+Chromyl Chloride,2,0,2,w
+"Cresol(o-, m-, p-)",3,2,0,
+Crotonaldehyde,3,3,2,
+Cumene,2,3,1,
+Cyanoacetic Acid,3,1,0,
+Cyanogen Bromide,3,0,1,
+Cyanogen Gas,4,4,2,
+Cyclohexane,1,3,0,
+Cyclohexanol,1,2,0,
+Cyclohexanone,1,2,0,
+Cyclohexylamine,2,3,0,
+Decaborane,3,2,1,
+Diamylamine,3,2,0,
+Diborane,3,4,3,w
+Dibutylamine,3,2,0,
+Dichloroacetyl Chloride,3,2,2,w
+Dichloroanilines,3,1,0,
+Dichlorobenzene,2,2,0,
+"Dichlorobutane, 1, 4-",2,2,0,
+Dichlorodimethylether,3,3,1,
+"Dichloroethyl Ether, 2, 2-",3,2,1,
+Dichloroethylene,2,3,2,
+"Dichloropropene, 1, 3-",3,3,0,
+Dichlorosilane,3,4,2,w
+"Diesel fuel (No. 1, 2 and 4)",0,2,0,
+Diethyl Sulfate,3,1,1,
+Diethyl Telluride,2,4,3,w
+Diethylaluminum Chloride,3,4,3,w
+Diethylamine,3,3,0,
+Diethylenetriamine,3,1,0,
+Diethylzinc,1,4,3,w
+Diisopropyl Ether,2,3,1,
+Diisopropylamine,3,3,0,
+"Diketene, inhibited",3,2,2,
+Dimethyl Ether,2,4,1,
+Dimethyl Sulfate,4,2,0,
+Dimeethyl Sulfide,2,4,0,
+Dimethylamine,3,4,0,
+Dimethylhydrazine,3,3,1,
+"Dinitroaniline, 2, 4-",3,1,3,
+"Dinitrobenzene, 1, 2-",3,1,4,
+Dinitrochlorobenzene,3,1,4,
+Dinitrotoluene,3,1,3,
+"Dioxane, 1, 4-",2,3,1,
+Divinylbenzene,2,2,2,
+Epichlorohydrin,3,3,2,
+"Ethyl Acrylate, inhibited",2,3,2,
+Ethyl Chloride,2,4,0,
+Ethyl Chloroformate,3,3,1,
+Ethyl Ether,2,4,1,
+Ethyl Methyl Ether,2,4,1,
+Ethyl Nitrite,2,4,4,
+Ethyl Trichlorosilane,3,3,2,w
+Ethyl acetate,1,3,0,
+"Ethylaniline, N-",3,2,0,
+Eathylbenzene,2,3,0,
+Ethylene,1,4,2,
+Ethylene Chlorohydrin,4,2,0,
+Ethylene Cyanohydrin,2,1,2,
+Ethylene Dibromide,3,0,0,
+Ethylene Dichloride,2,3,0,
+Ethylene Oxide,2,4,3,
+Ethylenediamine,3,3,0,
+"Ethyleneimine, inhibited",3,3,3,
+"Ethylhexyl Acrylate, 2-",2,2,2,
+Fluoboric Acid,3,3,0,
+Fluorine,3,0,4,w
+"Formaldehyde, anhydrous",3,4,0,
+"Formaldehyde, aqueous",3,2,0,
+Formic Acid,3,2,0,
+Fuel oil (Nos. 1-6),0,2,0,
+Furfural,2,2,0,
+Gallium Arsenide,3,1,2,w
+Gallium Phosphide,3,3,2,w
+Gallium Trichloride,3,0,1,
+Gasoline,1,3,0,
+Germane,4,4,3,
+"Heptane, n-",1,3,0,
+Hexamethyldisilazane,3,2,1,
+"Hexane, n-",1,3,0,
+"Hexanol, n-",1,2,0,
+"Hydrazine, anhydrous",3,3,3,
+Hydroidic Acid,3,0,0,
+Hydrobromic Acid,3,0,0,
+Hydrogen Chloride,3,0,0,
+Hydrogen Cyanide,4,4,2,
+Hydrogen Fluoride,4,0,1,
+Hydrogen Peroxide (35-52%),2,0,1,ox
+Hydrogen Peroxide (>52%),2,0,3,ox
+Hydrogen Sulfide,3,4,0,
+"Hydrogen, gas",0,4,0,
+"Hydrogen, liquefied",3,4,0,
+Hydroxylamine,2,0,3,
+Isobutyl acetate,1,3,0,
+Isophorone,2,2,0,
+Isoprene,2,4,2,
+Isopropanol,1,3,0,
+Isopropyl Formate,2,3,0,
+Isopropylamine,3,4,0,
+Kerosene,0,2,0,
+Lead Arsenates,2,0,0,
+Lithium Alunimum Hydride,3,2,2,w
+Lithium Hydride,3,2,2,w
+Lithium Metal,3,2,2,w
+Magnesium (+alloys),0,1,1,
+Maleic Anhydride,3,1,1,
+Mercuric Cyanide,3,0,0,
+Mesityl Oxide,3,3,1,
+"Methacrylic Acid, inhibited",3,2,2,
+"Methyl Acrylate, inhibited",2,3,2,
+Methyl Bromide,3,1,0,
+"Methyl Butyraldehyde, 2-",2,3,0,
+Methyl Chloride,2,4,0,
+Methyl Chloromethyl Ether,3,3,2,
+Methyl cyclopenate,2,3,0,
+Methyl Formate,2,4,0,
+Methyl Hydrazine,3,3,2,
+Methyl Isocyanate,4,3,2,
+Methyl methacrylate,2,3,2,
+"Methyl Vinyl Ketone, inhibited",3,3,2,
+Methyl acetate,1,3,0,
+Methyl alcohol,1,3,0,
+Methyl ethyl keetone,1,3,0,
+Methyl mercaptan,2,4,0,
+"Methyl-1-butene, 3-",2,4,0,
+"Methyl-2-butanol, 2-",1,3,0,
+"Methyl-2-butanol, 3-",1,3,0,
+"Methyl-2-propanol, 2-",1,3,0,
+"Methyl-5-Pyridine, 2-",2,2,0,
+"Methylamine, anhydrous",3,4,0,
+Methyldichlorosilane,3,3,2,w
+Methylene Chloride,2,1,0,
+Methyltrichlorosilane,3,3,2,w
+Monochloro-s-Triazinetrione Acid,3,0,2,"w, ox"
+Monoethanolamine,2,2,0,
+Monoethylamine,3,4,0,
+Morpholine,2,3,0,
+Napthalene,2,2,0,
+"Natural Gas, gas",0,4,0,
+"Natural Gas, liquid",3,4,1,
+Nickel Carbonyl,4,3,3,
+"Nickel Catalyst, dry",2,3,3,
+"Nitric Acid, >40%",3,0,0,ox
+"Nitric Acid, fuming",3,0,1,ox
+"Nitroaniline, p-",3,1,2,
+"Nitrobenzene, liquid",3,2,1,
+"Nitrocellulose, alcohol wet",2,3,2,
+"Nitrocellulose, colloided",2,3,0,
+"Nitrocellulose, water wet",1,2,2,
+Nitrochlorobenzene,3,1,0,
+Nitroethane,1,3,3,
+Nitrogen oxides,3,0,0,ox
+"Nitrogen, refrig liquid",3,0,0,
+Nitromethane,1,3,4,
+"Nitrophenol, p-",3,1,2,
+Nitropropane,1,3,2,
+"Nitrotoluene, o-, m-, p-",3,1,1,
+Octane,0,3,0,
+Octyl alcohol,1,2,0,
+"Oxalic Acid, dihydrate",2,1,0,
+"Oxygen, gas",0,0,0,ox
+"Oxygen, liquid",3,0,0,ox
+Paraformaldehyde,2,1,0,
+Paraldehyde,2,3,1,
+Pentaborane,4,4,2,
+Pentachlorophenol,3,0,0,
+Pentane,1,4,0,
+"Pentanol, 1-",1,3,0,
+"Pentanol, 2-",3,2,0,
+"Pentanol, 3-",1,2,0,
+"Pentenel, 1-",1,4,0,
+Peracetic Acid >40%,3,2,4,ox
+Perchloric Acid (>50%>72%),3,0,3,ox
+Petroleum crude,1,3,0,
+Petroleum ether,1,4,0,
+Phenol,3,2,0,
+Phenylethanolamine,2,1,0,
+"Phenylmercuric Acetate, dry",3,1,0,
+"Phenylmercuric Acetate, organic",3,2,0,
+Phosphorus Oxychloride,3,0,2,w
+Phosphorus Pentachloride,3,0,2,w
+Phosphorus Pentasulfide,2,1,2,w
+Phosphorus Tribromide,3,0,2,w
+Phosphorus Trichloride,3,0,2,w
+"Phosphorus, amorphous, red",1,1,1,
+Phthalic Anhydride,2,1,0,
+"Picric Acid, 10% water",3,4,4,
+Polychlorinated Biphenyls,2,1,0,
+Potassium Chlorate,1,0,1,ox
+"Potassium Cyanide, solid",3,0,0,
+Potassium Dichloro-s-Triazinetrione,3,0,2,ox
+Potassium Hydroxide,3,0,1,
+Potassium Perchlorate,1,0,1,ox
+Potassium Peroxide,3,0,1,ox
+Potassium Sulfide,3,1,0,
+"Potassium, metal",3,3,2,w
+Propargyl Alcohol,3,3,3,
+Propionaldehyde,2,3,2,
+Propionic Acid,2,2,0,
+Propionic Anhydride,2,2,1,
+Propyl Nitrate,2,3,3,ox
+Propyl acetate,1,3,0,
+"Propylamine, n-",3,3,0,
+Propylene,1,4,1,
+Propylene Dichloride,2,3,0,
+Propylene Oxide,4,2,2,
+Propyltrichlorosilane,3,3,1,
+Pyridine,2,3,0,
+Pyroxylin Plastic,2,3,2,
+Silane,2,4,3,
+"Silane, (4-Aminobutyl)-Diethoxymethyl",3,2,1,
+Silicon Tetrachloride,3,0,2,w
+Silicon Tetrafluoride,3,0,2,w
+Sodium Chlorate,1,0,1,ox
+Sodium Chlorite,1,1,1,ox
+Sodium Cyanide,3,0,0,
+Sodium Dichloro-s-Triazinetrione and Dihydra,3,3,2,"w, ox"
+Sodium Fluoride,2,0,0,
+Sodium Hydride,3,3,2,w
+Sodium Hydrosulfite,3,1,2,
+Sodium Hydroxide,3,0,1,
+Sodium Perchlorate,2,0,1,ox
+Sodium Peroxide,3,0,1,ox
+Sodium Potassium Alloys,3,3,2,w
+"Sodium Sulfide, anhydrous",3,1,1,
+"Sodium, metal",3,3,2,w
+Stibine,3,4,2,
+"Styrene monomer, inhibited",2,3,2,
+Sulfur Dioxide,3,0,0,
+Sulfur Monochloride,2,1,1,
+"Sulfur, dry",1,1,0,
+"Sulfur, molten",2,1,0,
+Sulfuric Acid,3,0,2,w
+Sulfuryl Chloride,3,0,1,
+Tetrachloroethylene,2,0,0,
+"Tetrafluorethylene (monomer, inhibited)",2,4,3,
+Tetrahydrofuran,2,3,1,
+Tetrahydronaphthalene,1,2,0,
+Tetramethoxysilane,3,3,1,
+Thionyl Chloride,3,0,2,w
+"Tin Tetrachloride, anhydrous",3,0,1,
+Titanium Tetrachloride,3,0,2,w
+Toluene,2,3,0,
+"Toluene, 2, 4-Disocyanate",3,1,2,
+"Toluidine, o-",3,2,0,
+"Toluidine, p-",3,2,0,
+Tributylamine,3,2,0,
+"Trichloroethane, 1, 1, 2-",3,1,0,
+Trichloroethylene,2,2,0,
+Trichloroisocyanuric Acid,3,0,2,ox
+Trichlorosilane,3,4,2,w
+Triethylaluminum,3,4,3,w
+Triethylamine,2,3,0,
+Triisobutylaluminum,3,4,3,w
+Trimethoxxysilane,3,3,2,
+Trimethylamine,3,4,0,
+Tripentylamine,2,1,0,
+Turpentine,1,3,0,
+Vanadium Tetrachloride,3,0,2,w
+Vinyl Acetate,2,3,2,
+Vinyl Acetylene,2,4,3,
+Vinyl Chloride,2,4,2,
+Vinyl Ether,2,3,2,
+"Vinylidene Chloride, inhibited",2,4,2,
+Vinyltoluene,2,2,2,
+"Xylenes, o-, m-, p-",2,3,0,
+"Zylidine, o-",3,1,0,
+Zine Chlorate,1,0,1,ox
+Zine Phosphide,3,3,1,
+Zirconium Tetrachloride,3,0,2,w
