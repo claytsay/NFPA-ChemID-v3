@@ -8,6 +8,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // TODO: Remove this code sometime later -- it is not necessary.
         EnumMap<ChemProp, Integer> prop1 = new EnumMap<ChemProp, Integer>(ChemProp.class);
         EnumMap<ChemProp, Integer> prop2 = new EnumMap<ChemProp, Integer>(ChemProp.class);
 
@@ -16,6 +17,7 @@ public class Main {
 
         System.out.println(prop1.equals(prop2));
 
+        // TODO: Fix the code below AFTER fixing the IDGet class so that it can be used for debugging.
         /*String[] databaseNames = {"DataSet_1_NFPA704.json","DataSet_2_NFPA704.json"};
         ChemDBManager database = new ChemDBManager(databaseNames);
         Scanner scanner = new Scanner(System.in);

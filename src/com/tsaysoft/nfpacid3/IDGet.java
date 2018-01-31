@@ -5,11 +5,13 @@ import java.net.*;
 import org.json.*;
 
 /**
- * Handles chemical name to PubChem CID conversion.
+ * Handles chemical name to chemical ID conversion.
  * <p>
- * Handles the HTTP request and JSON conversion involved in converting a chemical name to its PubChem CID.
+ *     Handles the HTTP request and JSON conversion involved in converting a chemical name to a specified
+ *     chemical ID. ID type is specified by using <tt>enum</tt>s from {@link ChemID}
+ * </p>
  *
- * @author      Clay Tsay < clay.tsay @ gmail.com>
+ * @author      Clay Tsay < clay.tsay @ gmail.com >
  */
 public class IDGet {
     // --------------------
@@ -28,22 +30,23 @@ public class IDGet {
     // --------------------
 
     /**
-     * Uses an HTTP request to convert a chemical name to a PubChem CID
+     * Uses an HTTP request to convert a chemical name to a specific type of chemical ID.
      * <p>
-     * If the CID in unavailable, will print error to console and return -1.
+     *     If the ID in unavailable, will print error to console and return <tt>null</tt>.
+     * </p>
      *
      * @param chemName the common name of the chemical
-     * @return the chemical's PubChem CID as an int
+     * @return the chemical's requested ID as a <tt>String</tt>
      */
-    public static int requestID(String chemName, ChemID id) {
+    public static String requestID(String chemName, ChemID id) {
         String url = urlGenerator(chemName);
-        String JSON = "";
+        String JSON;
         try {
             JSON = getHTML(url);
             return parseJSON(JSON);
         } catch (Exception e) {
-            System.out.println(e + " - CID unavailable");
-            return -1;
+            System.out.println(e + " - ID unavailable");
+            return null;
         }
     }
 
@@ -55,10 +58,12 @@ public class IDGet {
 
     /**
      * Converts a chemical name to a HTTP request-ready URL.
+     *
      * @param chemName the chemical name
-     * @return the URL as a String
+     * @return the URL as a <tt>String</tt>
      */
     private static String urlGenerator(String chemName) {
+        // TODO: Change this so that it can handle multiple different ID types.
         String url = "http://cts.fiehnlab.ucdavis.edu/service/convert/Chemical%20Name/PubChem%20CID/";
         for(int i=0; i<chemName.length(); i++) {
             if(chemName.charAt(i) == ' ') {
@@ -71,8 +76,9 @@ public class IDGet {
 
     /**
      * Takes a URL and requests the HTML information.
+     *
      * @param urlToRead the URL to be accessed
-     * @return the information received as a String
+     * @return the information received as a <tt>String</tt>
      * @throws Exception
      */
     private static String getHTML(String urlToRead) throws Exception {
@@ -90,11 +96,12 @@ public class IDGet {
     }
 
     /**
-     * Parses String input into JSON, returning a PubChem CID.
-     * @param JSONInput the input containing the CID information in a specific form
-     * @return the PubChem CID as an int
+     * Parses <tt>String</tt> input into JSON, returning a chemical ID.
+     *
+     * @param JSONInput the input containing the ID information in a specific form
+     * @return the PubChem CID as an <tt>String</tt>
      */
-    private static int parseJSON(String JSONInput){
+    private static String parseJSON(String JSONInput){
         try {
             //System.out.println(JSONInput);
             JSONArray array1 = new JSONArray(JSONInput);
@@ -103,8 +110,7 @@ public class IDGet {
             //JSONObject object2 = array2.getJSONObject(0);
 
             //String chemIDStr = object2.toString();
-            String chemIDStr = array2.getString(0);
-            int chemID = Integer.parseInt(chemIDStr);
+            String chemID = array2.getString(0);
 
         /*String pageName = obj.getJSONObject("pageInfo").getString("pageName");
         JSONArray arr = obj.getJSONArray("posts");
@@ -115,8 +121,8 @@ public class IDGet {
             return chemID;
 
         } catch (JSONException e){
-            System.out.println("JSONException - CID unavailable");
-            return -1;
+            System.out.println(e + " - ID unavailable");
+            return null;
         }
     }
 

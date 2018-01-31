@@ -2,13 +2,16 @@ package com.tsaysoft.nfpacid3;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.file.*;
-import java.text.NumberFormat;
-import java.util.*;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
+import java.util.ArrayList;
 
 public class ChemDB implements ChemDBInterface{
 
@@ -24,8 +27,12 @@ public class ChemDB implements ChemDBInterface{
     // --------------------
 
     /**
-     * TODO: Write this Javadoc
-     * @param fileName
+     * Constructs a <tt>ChemDB</tt> that takes information from the specified file.
+     * <p>
+     *     The file must be formatted in a very specific way.
+     *     See the existing data sets for examples.
+     * </p>
+     * @param fileName the name of the file to be read
      */
     public ChemDB(String fileName) {
         //readCSV(fileName);
@@ -47,10 +54,10 @@ public class ChemDB implements ChemDBInterface{
      * @return the matching chemicals in an ArrayList
      */
     @Override
-    public ArrayList<Chemical> queryChemNFPA(Chemical query) {
+    public ArrayList<Chemical> queryChemNFPA(Chemical query, boolean special) {
         ArrayList<Chemical> results = new ArrayList<>();
         for(Chemical chem : chemList) {
-            if(chem.equalsNFPA(query)) {
+            if(chem.equalsNFPA(query, special)) {
                 results.add(chem);
             }
         }

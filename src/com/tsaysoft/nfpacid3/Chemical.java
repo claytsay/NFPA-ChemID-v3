@@ -1,5 +1,7 @@
 package com.tsaysoft.nfpacid3;
 
+import com.sun.org.apache.regexp.internal.RE;
+
 import java.util.EnumMap;
 import java.util.Set;
 
@@ -10,9 +12,8 @@ import static com.tsaysoft.nfpacid3.ChemID.*;
 /**
  * Represents a chemical and its associated information.
  * <p>
- *     Carries NFPA 704 information and PubChem CID information.
+ *     Carries NFPA 704 information and chemical ID information.
  * </p>
- * TODO: Fix Javadocs so that "true" is formatted correctly with <tt>somethin'</tt>
  */
 public class Chemical {
 
@@ -32,6 +33,10 @@ public class Chemical {
 
     /**
      * Constructs an instance of {@code Chemical} without special symbols.
+     * <p>
+     *     This function is relatively depreciated due to the switch to using <tt>EnumMap</tt>s to
+     *     store information.
+     * </p>
      *
      * @param chemName name of the chemical
      * @param health health rating of the chemical
@@ -50,7 +55,10 @@ public class Chemical {
 
     /**
      * Constructs an instance of {@code Chemical} with special symbols.
-     * TODO: Maybe depreciate this function, instead requesting an EnumMap as an argument
+     * <p>
+     *     This function is relatively depreciated due to the switch to using <tt>EnumMap</tt>s to
+     *     store information.
+     * </p>
      *
      * @param chemName name of the chemical
      * @param health health rating of the chemical
@@ -74,7 +82,54 @@ public class Chemical {
             System.out.println("special array is wrong size");
         }
 
+    }
 
+    /**
+     * Constructs an instance of <tt>Chemical</tt> <b>without</b> special symbols.
+     * <p>
+     *     Takes an <tt>EnumMap</tt> that <b>must</b> have the the following <tt>enums</tt>:
+     *     <p> - {@link ChemProp#HEALTH} </p>
+     *     <p> - {@link ChemProp#FLAMMABILITY} </p>
+     *     <p> - {@link ChemProp#REACTIVITY} </p>
+     *     Otherwise, will throw <tt>IllegalArgumentException</tt>.
+     * </p>
+     * @param chemName name of the chemical
+     * @param props <tt>EnumMap</tt> containing the chemical's properties information
+     * @throws IllegalArgumentException if the input <tt>EnumMap</tt> is invalid
+     */
+    public Chemical(String chemName, EnumMap<ChemProp, Integer> props) throws IllegalArgumentException{
+        super();
+        if(props.containsKey(HEALTH) &&
+                props.containsKey(FLAMMABILITY) &&
+                props.containsKey(REACTIVITY)) {
+            properties.put(HEALTH, props.get(HEALTH));
+            properties.put(FLAMMABILITY, props.get(FLAMMABILITY));
+            properties.put(REACTIVITY, props.get(REACTIVITY));
+        } else {
+            throw new IllegalArgumentException("wrong EnumMap - Chemical not constructed");
+        }
+    }
+
+    /**
+     * Constructs an instance of <tt>Chemical</tt> <b>with</b> special symbols.
+     * <p>
+     *     Takes a properties <tt>EnumMap</tt> that <b>must</b> have the the following <tt>enums</tt>:
+     *     <p> - {@link ChemProp#HEALTH} </p>
+     *     <p> - {@link ChemProp#FLAMMABILITY} </p>
+     *     <p> - {@link ChemProp#REACTIVITY} </p>
+     *     Otherwise, will throw <tt>IllegalArgumentException</tt>.
+     *     The specials <tt>EnumMap</tt> is not checked in order to provide versatility (i.e. for
+     *     non-NFPA 704 special symbols).
+     * </p>
+     * @param chemName name of the chemical
+     * @param props <tt>EnumMap</tt> containing the chemical's properties information
+     * @param specs <tt>EnumMap</tt> containing the chemical's special properties/symbols information
+     * @throws IllegalArgumentException if the input <tt>EnumMap</tt> is invalid
+     */
+    public Chemical(String chemName, EnumMap<ChemProp, Integer> props, EnumMap<ChemSpecial, Boolean> specs) throws IllegalArgumentException{
+        super();
+        new Chemical(chemName, props);
+        specials = specs;
     }
 
 
@@ -174,15 +229,26 @@ public class Chemical {
 
     /**
      * Compares two {@code Chemical}s based on the provided NFPA parameters/values only.
+     * <p>
+     *     The <tt>special</tt> argument determines whether special symbol should be considered in
+     *     comparing chemicals:
+     *     <p> - <tt>true</tt> means that special symbols will be taken into account</p>
+     *     <p> - <tt>false</tt> means that special symbols will <b>not</b> be taken into account</p>
+     * </p>
      * @param chem the {@code Chemical} to be compared with the current one
-     * @return true if the NFPA values are the same, false if not
+     * @param special whether the special symbols of the {@code Chemical}s should be considered
+     * @return <tt>true</tt> if the NFPA values are the same, <tt>false</tt> if not
      */
-    public boolean equalsNFPA(Chemical chem) {
-        // TODO: Maybe implement way to ignore special
+    public boolean equalsNFPA(Chemical chem, boolean special) {
         boolean propSame = this.getProps().equals(chem.getProps());
         boolean specialSame = this.getSpecials().equals(chem.getSpecials());
 
-        return propSame && specialSame;
+        if(special) {
+            return propSame && specialSame;
+        } else {
+            return propSame;
+        }
+
     }
 
     /**
@@ -193,7 +259,7 @@ public class Chemical {
      *
      * @return the accessed CID as an {@code int}
      */
-    public int genChemID(ChemID id) {
+    public String genChemID(ChemID id) {
         // TODO: Make this use the new IDGet class
         /*int CIDTemp;
         if(name != null && !name.equals("")) {
@@ -202,7 +268,7 @@ public class Chemical {
                 CID = CIDTemp;
             }
         }*/
-        return 0;
+        return null;
     }
 
 

@@ -1,5 +1,11 @@
 package com.tsaysoft.nfpacid3;
 
+/**
+ * An <tt>enum</tt> that lists the various chemical ID formats.
+ * <p>
+ *     See the individual Javadocs for each of the <tt>enum</tt>s for further information.
+ * </p>
+ */
 public enum ChemID {
     /**
      * Chemical Abstracts Service Registry Number.
@@ -29,6 +35,19 @@ public enum ChemID {
      * </p>
      * @see <a href="https://iupac.org/who-we-are/divisions/division-details/inchi/">https://iupac.org/who-we-are/divisions/division-details/inchi/</a>
      */
-    InChI_Key,
+    InChI_Key;
 
+    @Override
+    public String toString() {
+        switch(this) {
+            case CID:
+                return "CID";
+            case CASRN:
+                return "CASRN";
+            case InChI_Key:
+                return "InChI Key";
+        }
+
+        return "Error - unrecognized ChemID";
+    }
 }
