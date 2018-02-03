@@ -5,6 +5,8 @@ package com.tsaysoft.nfpacid3;
  * <p>
  *     See the individual Javadocs for each of the <tt>enum</tt>s for further information.
  * </p>
+ *
+ * @author Clay Tsay
  */
 public enum ChemID {
     /**

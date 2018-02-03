@@ -22,7 +22,7 @@ For example, the compound sodium hypochlorite (NaClO) has the following ratings:
   - Health: 2 -> Intense or continued exposure could cause harm
   - Flammability: 0 -> Will not burn under typical fire conditions
   - Reactivity: 1 -> Normally stable, but can be unstable in specific situations
-  - OX -> Is an oxidizer (and will allow fires to burn without air)
+  - OX -> Is an oxidizer (i.e. will allow fires to burn without air)
 
 
 ## Program Functions
@@ -41,16 +41,18 @@ input. \(\>\_\<\)
 
 ## Program To-Do
   - [ ] Write more Javadocs and add more tags to existing ones
-  - [ ] Implement ways to HTTP request different chemical ID forms
+  - [X] Implement ways to HTTP request different chemical ID forms
   - [ ] Find a way to indicate program versions
   - [ ] Figure out how to exclude certain files from being uploaded to GitHub
   - [ ] Acquire more databases (especially Wikipedia/MediaWiki)
   - [ ] Find a more reliable way to convert chemical name to ID
+  - [X] Fix the program so that it actually works
 
 ## Further reading
   - [NFPA 704](https://en.wikipedia.org/wiki/NFPA_704)
   - [Sodium hypochlorite](https://en.wikipedia.org/wiki/Sodium_hypochlorite)
   - [Chemical Translation Service](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2951090/)
+  - [CTS API](http://cts.fiehnlab.ucdavis.edu/moreServices/index)
 
 ## Miscellaneous
 This README.md was created with the help of this [GitHub guide](https://help.github.com/articles/basic-writing-and-formatting-syntax/).

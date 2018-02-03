@@ -8,20 +8,15 @@ import org.json.*;
  * Handles chemical name to chemical ID conversion.
  * <p>
  *     Handles the HTTP request and JSON conversion involved in converting a chemical name to a specified
- *     chemical ID. ID type is specified by using <tt>enum</tt>s from {@link ChemID}
+ *     chemical ID. ID type is specified by using <tt>enum</tt>s from {@link ChemID}.
  * </p>
  *
- * @author      Clay Tsay < clay.tsay @ gmail.com >
+ * @author Clay Tsay
  */
 public class IDGet {
     // --------------------
     // VARIABLES AND DATA
     // --------------------
-
-    /**
-     * Changes depending on the type of ID requested.
-     */
-    private String url;
 
 
 
@@ -39,7 +34,7 @@ public class IDGet {
      * @return the chemical's requested ID as a <tt>String</tt>
      */
     public static String requestID(String chemName, ChemID id) {
-        String url = urlGenerator(chemName);
+        String url = urlGenerator(chemName, id);
         String JSON;
         try {
             JSON = getHTML(url);
@@ -62,15 +57,34 @@ public class IDGet {
      * @param chemName the chemical name
      * @return the URL as a <tt>String</tt>
      */
-    private static String urlGenerator(String chemName) {
-        // TODO: Change this so that it can handle multiple different ID types.
-        String url = "http://cts.fiehnlab.ucdavis.edu/service/convert/Chemical%20Name/PubChem%20CID/";
+    private static String urlGenerator(String chemName, ChemID id) {
+        // Declaring variables
+        String typeToken = "";
+        String url = "http://cts.fiehnlab.ucdavis.edu/service/convert/Chemical%20Name/";
+
+        // Find the typeToken "radical" from the provided enum and add to the URL
+        // Assumes that all of the enums in ChemID will be supported
+        switch(id) {
+            case CASRN:
+                typeToken = "CAS/";
+                break;
+            case CID:
+                typeToken = "PubChem%20CID/";
+                break;
+            case InChI_Key:
+                typeToken = "InChIKey/";
+                break;
+        }
+        url = url.concat(typeToken);
+
+        // Format and add the chemical name "radical" to the URL
         for(int i=0; i<chemName.length(); i++) {
             if(chemName.charAt(i) == ' ') {
                 chemName = chemName.substring(0,i) + "_" + chemName.substring(i+1);
             }
         }
-        url = url + chemName;
+        url = url.concat(chemName);
+
         return url;
     }
 

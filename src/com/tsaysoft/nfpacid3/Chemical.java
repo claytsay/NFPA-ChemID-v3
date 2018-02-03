@@ -14,6 +14,8 @@ import static com.tsaysoft.nfpacid3.ChemID.*;
  * <p>
  *     Carries NFPA 704 information and chemical ID information.
  * </p>
+ *
+ * @author Clay Tsay
  */
 public class Chemical {
 
@@ -46,11 +48,7 @@ public class Chemical {
      * @see com.tsaysoft.nfpacid3.Chemical#Chemical(String, int, int, int, boolean[])
      */
     public Chemical(String chemName, int health, int flammability, int reactivity) {
-        name = chemName;
-        properties.put(HEALTH, health);
-        properties.put(FLAMMABILITY, flammability);
-        properties.put(REACTIVITY, reactivity);
-
+        this(chemName, health, flammability, reactivity, null);
     }
 
     /**
@@ -69,9 +67,16 @@ public class Chemical {
      * @see com.tsaysoft.nfpacid3.Chemical#Chemical(String, int, int, int)
      */
     public Chemical(String chemName, int health, int flammability, int reactivity, boolean[] special) {
-        new Chemical(chemName, health, flammability, reactivity);
+        super();
+
+        name = chemName;
+        properties.put(HEALTH, (Integer)health);
+        properties.put(FLAMMABILITY, (Integer)flammability);
+        properties.put(REACTIVITY, (Integer)reactivity);
+
         try {
-            if(special.length != 3) {
+            // Make sure to alter this for special non-NFPA 704 symbols that will be added later
+            if(special == null || special.length != 3) {
                 throw new ArrayIndexOutOfBoundsException();
             } else {
                 specials.put(OXIDIZER, special[0]);
@@ -79,7 +84,7 @@ public class Chemical {
                 specials.put(WATER_REACT, special[2]);
             }
         } catch (ArrayIndexOutOfBoundsException e){
-            System.out.println("special array is wrong size");
+            System.out.println("special array is wrong size - Chemical constructed without specials");
         }
 
     }
@@ -99,6 +104,7 @@ public class Chemical {
      */
     public Chemical(String chemName, EnumMap<ChemProp, Integer> props) throws IllegalArgumentException{
         super();
+        name = chemName;
         if(props.containsKey(HEALTH) &&
                 props.containsKey(FLAMMABILITY) &&
                 props.containsKey(REACTIVITY)) {
@@ -127,8 +133,7 @@ public class Chemical {
      * @throws IllegalArgumentException if the input <tt>EnumMap</tt> is invalid
      */
     public Chemical(String chemName, EnumMap<ChemProp, Integer> props, EnumMap<ChemSpecial, Boolean> specs) throws IllegalArgumentException{
-        super();
-        new Chemical(chemName, props);
+        this(chemName, props);
         specials = specs;
     }
 
@@ -240,8 +245,8 @@ public class Chemical {
      * @return <tt>true</tt> if the NFPA values are the same, <tt>false</tt> if not
      */
     public boolean equalsNFPA(Chemical chem, boolean special) {
-        boolean propSame = this.getProps().equals(chem.getProps());
-        boolean specialSame = this.getSpecials().equals(chem.getSpecials());
+        boolean propSame = properties.equals(chem.getProps());
+        boolean specialSame = specials.equals(chem.getSpecials());
 
         if(special) {
             return propSame && specialSame;
@@ -252,23 +257,24 @@ public class Chemical {
     }
 
     /**
-     * Uses an HTTP request to get the CID for the {@code Chemical}.
+     * Uses an HTTP request to get the ID for the {@code Chemical}.
      * <p>
-     * By default, CID is equal to -1. After generation, the number changes.
-     * Used to prevent slowdowns as only the queried {@code Chemical}s need CID's.
-     *
-     * @return the accessed CID as an {@code int}
+     *     After generation, IDs are stored in an <tt>EnumMap</tt> named <tt>ids</tt>.
+     *     By default, there are no IDs available.
+     *     Used to prevent slowdowns as only the queried {@code Chemical}s need ID's.
+     * </p>
+     * @param id the ID type requested to be generated
+     * @return the generated ID as a <tt>String</tt>
      */
     public String genChemID(ChemID id) {
-        // TODO: Make this use the new IDGet class
-        /*int CIDTemp;
+        String idTemp = null;
         if(name != null && !name.equals("")) {
-            CIDTemp = IDGet.requestID(name, ChemID.CID);
-            if(CIDTemp != -1) {
-                CID = CIDTemp;
+            idTemp = IDGet.requestID(name, id);
+            if(idTemp != null) {
+                ids.put(id, idTemp);
             }
-        }*/
-        return null;
+        }
+        return idTemp;
     }
 
 
