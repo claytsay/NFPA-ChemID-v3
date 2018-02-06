@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.EnumMap;
 
+import static com.tsaysoft.nfpacid3.ChemID.*;
+
 /**
  * Manages multiple chemical databases.
  * <p>
@@ -120,7 +122,9 @@ public class ChemDBManager implements ChemDBInterface{
         for(ChemDB chemDB : databases) {
             results.addAll(chemDB.queryChemNFPA(query, special));
         }
+
         return results;
+        //return removeDuplicates(results, CID);
     }
 
     /**
@@ -136,11 +140,7 @@ public class ChemDBManager implements ChemDBInterface{
     @Override
     public ArrayList<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties) {
         Chemical query = new Chemical(null, properties);
-        ArrayList<Chemical> results = new ArrayList<>();
-        for(ChemDB chemDB : databases) {
-            results.addAll(chemDB.queryChemNFPA(query, false));
-        }
-        return results;
+        return queryChemNFPA(query, false);
     }
 
     /**
@@ -157,11 +157,7 @@ public class ChemDBManager implements ChemDBInterface{
     @Override
     public ArrayList<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties, EnumMap<ChemSpecial, Boolean> specials) {
         Chemical query = new Chemical(null, properties, specials);
-        ArrayList<Chemical> results = new ArrayList<>();
-        for(ChemDB chemDB : databases) {
-            results.addAll(chemDB.queryChemNFPA(query, true));
-        }
-        return results;
+        return queryChemNFPA(query, true);
     }
 
 
@@ -169,5 +165,47 @@ public class ChemDBManager implements ChemDBInterface{
     // PRIVATE UTILITY METHODS
     // --------------------
 
+    /**
+     * TODO: Fix this so that it works. As of now, will fail if chemical IDs cannot be obtained.
+     * Removes duplicate <tt>Chemical</tt>s from an <tt>ArrayList</tt>.
+     * <p>
+     *     Duplication is determined by comparing chemical ID tokens.
+     *     The type of <tt>ChemID</tt> compared is determined by a method argument.
+     * </p>
+     * @param chemList the <tt>ArrayList</tt> of <tt>Chemical</tt>s to be cleaned
+     * @param id the <tt>ChemID</tt> type to be used for duplicate determination
+     * @return the cleaned <tt>ArrayList</tt> of <tt>Chemical</tt>s, free from duplicates
+     */
+    private ArrayList<Chemical> removeDuplicates(ArrayList<Chemical> chemList, ChemID id) {
+        // Declare variables
+        Chemical tempOrigin;
+        Chemical tempInsertion;
+
+        // Generate IDs for each of the chemicals in the list
+        for(Chemical c : chemList) {
+            c.genChemID(id);
+        }
+
+        // Set the chemicals that match each other in ID to have null names
+        for(int i = 0; i < chemList.size()-1; i++) {
+            tempOrigin = chemList.get(i);
+            for (int j = i+1; j < chemList.size(); j++) {
+                tempInsertion = chemList.get(j);
+                if(tempInsertion.getName() != null &&
+                        tempInsertion.getID(id).equals(tempOrigin.getID(id))) {
+                    tempInsertion.setName(null);
+                }
+            }
+        }
+
+        // Remove all chemicals that have null names
+        for(int i = chemList.size()-1; i >= 0; i--) {
+            if(chemList.get(i).getName() == null) {
+                chemList.remove(i);
+            }
+        }
+
+        return chemList;
+    }
 
 }

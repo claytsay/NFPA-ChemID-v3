@@ -1,0 +1,3859 @@
+[
+ {
+   "NAME": "Acetal",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acetaldehyde",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acetic Acid (glacial)",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acetic Anhydride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Acetone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acetonitrile",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acetophenone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acetyl Chloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Acetylene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acetyl Peroxide",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "4",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acrolein",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acrolein Dimer",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acrylic Acid (glacial)",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Acrylonitrile",
+   "HEALTH": "4",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Adipic Acid",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Adiponitrile",
+   "HEALTH": "4",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Aldol",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Allyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Allyl Alcohol",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Allyl Bromide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Allyl Chloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Aluminum (dust or powder)",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "3-Aminopropanol",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ammonia, Anhydrous",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ammonium Bromide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ammonium Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ammonium Fluoride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ammonium Nitrate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "3",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Ammonium Perchlorate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "4",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Ammonium Permanganate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "3",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Ammonium Sulfate",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amyl Alcohol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amylbenzene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amyl Chloride",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amyl Ether",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amyl Maleate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amyl Nitrate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "o-Amyl Phenol",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amyl Propionate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amyl Stearate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Amyl Toluene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Aniline",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "o-Anisidine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Anisole",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Antimony Pentafluoride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Antimony Pentasulfide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Arsenic Chloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Arsenic Trisulfide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Barium Chlorate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Barium Nitrate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Barium Peroxide",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Benzaldehyde",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Benzoic Acid",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "-",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Benzol (benzene)",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Benzotrifluoride",
+   "HEALTH": "4",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Benzoyl Chloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Benzyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Benzyl Alcohol",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Benzyl Cyanide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Benzyl Salicilate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Beryllium (dust or powder)",
+   "HEALTH": "4",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Biphenyl",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Boron Trifluoride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Bromine",
+   "HEALTH": "4",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Bromine Trifluoride",
+   "HEALTH": "4",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "3",
+   "SPECIAL": "OX, W"
+ },
+ {
+   "NAME": "Bromobenzene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "o-Bromotoluene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butadiene Monoxide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1-Butane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butenediol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Acetoacetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Acrylate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Alcohol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butylamine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butylamine Oleate",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butylbenzene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Benzoate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Bromide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butylcyclohexane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "-",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyldecalin",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Formate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "N-Butyl Isocyanate",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Isovalerate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "-",
+   "REACTIVITY": "-",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Lactate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Methacrylate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Naphthalene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Nitrate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Oxalate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Propionate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Stearate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyl Trichlorosilane",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyraldehyde",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyraldol",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyraldoxime",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Butyric Acid",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Calcium Carbide",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Calcium Chlorate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Calcium Cyanide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Calcium Hypochlorite",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Calcium Oxide",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Camphor",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Caproic Acid",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Capryladehyde",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Caprylyl Chloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Carbon Disulfide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Carbon Monoxide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Carbon Tetrachloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Castor Oil",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Chlorine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Chlorine Monoxide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Chloroacetic Acid",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Chloroaceto Phenone",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Chlorobenzene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Chloroform",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Chloropicrin",
+   "HEALTH": "4",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Chlorotoluene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Chromic Acid",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "1",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Citral",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cobalt Naphtha",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Coconut Oil",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cod Liver Oil",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Corn Oil",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Creosote Oil",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "o-Cresol",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Crotonaldehyde",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Crotonic Acid",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Crotononitrile",
+   "HEALTH": "-",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cumene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cupric Nitrate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Cyanogen",
+   "HEALTH": "4",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyanogen Bromide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclobutane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclohexane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclohexanol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclohexanone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclohexene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclohexenone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclohexyl Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclopentane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclopentene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclopentanone",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Cyclopropane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Decaborane",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Decane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Decanol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1-Decene",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Decylamine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dehydroacetic Acid",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Denatured Alcohol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Deuterium",
+   "HEALTH": "0",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diacetone Alcohol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diamyl Sulfide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dibenzoyl Peroxide",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "4",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Diborane",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "3",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Dibutylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dibutyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dibutyl Oxalate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dibutyl Phosphite",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dibutyl Phthalate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "o-Dichlorobenzene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1,2-Dichlorobutane",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1,1-Dichloroethene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1,2-Dichloroethylene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dichlorosilane",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Didecyl Ether",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diesel Fuel Oil No. 1",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diethylamine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diethylene Glycol Dimethyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diethylene Triamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diethyl Fumarate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diethyl Ketone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diethyl Succinate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diethyl Sulfate",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diethylzinc",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "3",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Dihexylamne",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diisobutylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diisobutyl Carbinol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diisobutyl Ketone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diisooctyl Phthalate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diisopropylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diisopropyl Benzene",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diketene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dimethylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "N, N-Dimethylaniline",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "2,2-Dimethylbutane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dimethyldioxane",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "N, N-Dimethylformamide",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dimethyl Maleate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "2,3-Dimethyloctane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "2,3-Dimethylpentane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dimethyl Phthalate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dimethyl Sulfate",
+   "HEALTH": "4",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "dimethyl Sulfide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dimethyl Sulfoxide",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dinitrobenzene (ortho)",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "4",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "2,4-Dinitrotoluene",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dioctyl Ether",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "p-Dioxane",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dioxolane",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dipentene",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diphenylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Diphenyl Phthalate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dipropylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Divinylbenzene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Divinyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Dodecane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1-Dodecanethiol",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1-Dodecanol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Endrin (dry)",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Epichlorohydrin",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethanolamine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethoxybenzene",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "3-Ethoxypropanal",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Acrylate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Alcohol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylbenzene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Benzoate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Borate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Bromide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylbutylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Butyl Carbonate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Butyl Ketone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Butyrate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Caprylate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Crotonate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylcyclohexane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylenediamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylene Dichloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylene Glycol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylene Glycol Dibutyl Ether",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylene Glycol Ethylbutyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylene Glycol Monobutyl Ether Acetate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "",
+   "REACTIVITY": "",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethylene Oxide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Formate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Isobutyrate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Mercaptan",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "4-Ethylmorpholine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Nitrate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "4",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Oxalate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Propionate",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Ethyl Silicate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Fluorine",
+   "HEALTH": "4",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "3",
+   "SPECIAL": "W, OX"
+ },
+ {
+   "NAME": "Formaldehyde (water solution)",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Formamide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "-",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Formic Acid",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Furan",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Furfuryl Alcohol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Gas, Natural",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Gasoline 56-100 Octane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Glycerine",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Glycidyl Acrylate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Heptane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "2-Heptanol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Heptylene",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hexadecane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hexanal",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hexane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "3-Hexanone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1-Hexene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hexyl Alcohol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hexyl Methacrylate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hydrazine (Anhydrous)",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hydrocyanic Acid-96%",
+   "HEALTH": "4",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hydrogen",
+   "HEALTH": "0",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hydrochloric Acid",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hydrobromic Acid",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hydrofluoric Acid",
+   "HEALTH": "4",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hydrogen Peroxide(35% to 52% byweight)",
+   "HEALTH": "1",
+   "FLAMMABILITY": "OX",
+   "REACTIVITY": "",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hydrogen Sulfide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Hydroquinone",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isoamyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isoamyl Alcohol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isobutane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isobutyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isobutyl Acrylate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isobutyl Alcohol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isobutylbenzene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isobutyl Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isobutyl Methyl Ketone",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isobutyraldehyde",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isobutyric Acid",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isobutyric Anhydride",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Isodecaldehyde",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isodecanoic Acid",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isohexane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isooctane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isooctanoic Acid",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isooctyl Alcohol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isopentane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isophorone",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isoprene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isopropyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isopropyl Alcohol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isopropyl Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Isopropyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Jet Fuels (JP-4)",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Jet Fuels (JP-5)",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Lanolin",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Lead Arsenates",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Lead Nitrate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Lead Thiocyanate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Lithium",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Lithium Hydride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Lubricating Oil, Mineral",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Magnesium (including all alloys)",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "W",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Magnesium Nitrate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Magnesium Perchlorate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Maleic Anhydride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Mercuric Cyanide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Mesityl Oxide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methacrylic Acid",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Acrylate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methylal",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Alcohol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Amyl Ketone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Benzoate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Borate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Bromide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Butyl Ketone",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Carbonate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Cellosolve Acetate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Chloroacetate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methylcyclohexane",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methylcyclohexanone",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methylcyclopentane",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methylene Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methylene Diisocyanate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Methyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Ethyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Ethyl Ketone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Formate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Glycol Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Hexyl Ketone",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methylhydrazine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Isoamyl Ketone",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Isobutyl Carbinol",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Isobutyl Ketone",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Isocyanate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "3",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Methyl Lactate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Mercaptan",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Methacrylate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Parathion (solid)",
+   "HEALTH": "4",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "2-Methyl-1-Pentene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Phenylacetate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1-Methyl Piperazine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Propionate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Propyl Ketone",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "2-Methylpyrazine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methylpyrrole",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methylpyrrolidine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Salicylate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Stearate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Toluene Sulfonate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Methyl Vinyl Ketone",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Mineral Oil",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Mineral Spirits",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Morpholine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Mustard Oil",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Naptha",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Napthalene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nickel Carbonyl",
+   "HEALTH": "4",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nicotine",
+   "HEALTH": "4",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nitric Acid",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "p-Nitroaniline",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nitrobenzene",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nitrobiphenyl",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nitrochlorobenzene",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nitroethane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nitrogen (liquified)",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nitrogen Peroxide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Nitrogen Trioxide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Nitroglycerine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "4",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nitromethane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1-Nitropropane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "o-Nitrotoluene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "4",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nonadecane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nonane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nonene",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Nonylbenzene",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Octadecane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Octane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "2-Octanol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1-Octene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Oleic Acid",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Olive Oil",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Oxalic Acid",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Oxygen (liquid)",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Paraffin Oil",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Paraformaldehyde",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Paraldehyde",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Parathion",
+   "HEALTH": "4",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Pentaborane",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Pentachlorophenol (dry)",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Pentane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Pentanoic acid",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Pentaphen",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1-Pentene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Perchloric Acid",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "3",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Perchloroethylene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Petroleum, Crude",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Petroleum Ether",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phenol",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phenylacetaldehyde",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phenyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phenylacetic Acid",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "o-Phenylenediamine",
+   "HEALTH": "-",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phenylhydrazine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phenylpropyl Alcohol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phosgene",
+   "HEALTH": "4",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phosphine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phosphoric Acid",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phosphorus Pentasulfide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Phosphorus, Red",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phosphorus Trichloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Phosphorus, White or Yellow",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phosphoryl Chloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Phthalic Acid",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Phthalic Anhydride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Picric Acid",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "4",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Pine Oil",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Pine Tar",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Piperazine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Piperidine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Potassium",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Potassium Bromate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Potassium Chlorate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Potassium Cyanide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Potassium Hydroxide (lye)",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Potassium Nitrate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Potassium Permanganate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Potassium Peroxide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "W, OX"
+ },
+ {
+   "NAME": "Potassium Persulfate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Potassium Sulfide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propionic Acid",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propionyl Chloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propyl Acetate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propyl Alcohol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propylamine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propyl Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propylene",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propylene Dichloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propylene glycol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propylene Oxide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "n-Propyl Ether",
+   "HEALTH": "-",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Propyl Nitrate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "3",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Pyridine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Pyrrole",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Pyrrolidine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Quinoline",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Resorcinol",
+   "HEALTH": "-",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Rhodinol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Salicylic Acid",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Silane",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Silver Nitrate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Sodium",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Sodium Chlorate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Sodium Chlorite",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "2",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Sodium Cyanide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Sodium Fluoride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Sodium Hydride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Sodium Hydroxide (lye)",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Sodium Nitrate",
+   "HEALTH": "1",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Sodium Perchlorate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Sodium Peroxide",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "OX, W"
+ },
+ {
+   "NAME": "Sodium-Potassium Alloys",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Sodium Sulfide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Stannic Chloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Stearic Acid",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Stearyl Alcohol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "-",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Stoddard Solvent",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Styrene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Sulfur",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Sulfur Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Sulfur Dioxide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Sulfuric Acid",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Tannic Acid",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Terephthaloyl Chloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tetrachlorobenzene",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": "0"
+ },
+ {
+   "NAME": "Tetrachloroethylene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tetradecanol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tetraethylene Glycol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tetraethyl Lead, Compounds",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tetrafluoroethylene",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tetrahydrofuran",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tetramethyl Lead, Compounds",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "3",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Thionyl Chloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Thiophene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Titanium Tetrachloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Toluene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Toluene-2,4-Diisocyanate",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "o-Toluidine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Trimylamine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Triamylbenzene",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tributylamine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tributyl Phosphate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tributylphosphine",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tributyl Phosphite",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "1,1,1-Trichloroethane",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Trichloroethylene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Trichloroethylsilane",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Trichlorosilane",
+   "HEALTH": "3",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Triethanolamine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Triethylamine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Triethyl Phosphate",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Triisobutyl Borate",
+   "HEALTH": "3",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Trimethylamine",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Trimethylchlorosilane",
+   "HEALTH": "3",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Trinitrobenzene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "4",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Trinitrotoluene (tnt)",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "4",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Trioxane",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Triphenylmethane",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tripropylene",
+   "HEALTH": "0",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Tripropylene Glycol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Turpentine",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "2-Undecanol",
+   "HEALTH": "1",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Valeraldehyde",
+   "HEALTH": "1",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vanadium Tetrachloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "W"
+ },
+ {
+   "NAME": "Vinyl Acetate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinyl Bromide",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinyl Butyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinyl Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinyl Crotonate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinyl Ethyl Alcohol",
+   "HEALTH": "0",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinyl Ethyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinyl Fluoride",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinylidene Chloride",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinylidene fluoride",
+   "HEALTH": "1",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinyl Methyl Ether",
+   "HEALTH": "2",
+   "FLAMMABILITY": "4",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinyl Propionate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "2",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Vinyl Toluene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "2",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "o-Xylene",
+   "HEALTH": "2",
+   "FLAMMABILITY": "3",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "o-Xylidine",
+   "HEALTH": "3",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "0",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Zinc (powder or dust)",
+   "HEALTH": "0",
+   "FLAMMABILITY": "1",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ },
+ {
+   "NAME": "Zinc Chlorate",
+   "HEALTH": "2",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "2",
+   "SPECIAL": "OX"
+ },
+ {
+   "NAME": "Zirconium Tetrachloride",
+   "HEALTH": "3",
+   "FLAMMABILITY": "0",
+   "REACTIVITY": "1",
+   "SPECIAL": ""
+ }
+]

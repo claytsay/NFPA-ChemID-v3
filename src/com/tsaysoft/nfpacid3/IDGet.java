@@ -9,11 +9,13 @@ import org.json.*;
  * <p>
  *     Handles the HTTP request and JSON conversion involved in converting a chemical name to a specified
  *     chemical ID. ID type is specified by using <tt>enum</tt>s from {@link ChemID}.
+ *     Most methods are static, removing the need to construct an instance of this class.
  * </p>
  *
  * @author Clay Tsay
  */
 public class IDGet {
+
     // --------------------
     // VARIABLES AND DATA
     // --------------------
@@ -34,7 +36,8 @@ public class IDGet {
      * @return the chemical's requested ID as a <tt>String</tt>
      */
     public static String requestID(String chemName, ChemID id) {
-        String url = urlGenerator(chemName, id);
+        // Make sure to remove cleanName() if it causes problems with ID generation
+        String url = urlGenerator(cleanName(chemName), id);
         String JSON;
         try {
             JSON = getHTML(url);
@@ -43,6 +46,30 @@ public class IDGet {
             System.out.println(e + " - ID unavailable");
             return null;
         }
+    }
+
+    /**
+     * Takes a chemical name and cleans it of any extraneous content.
+     * <p>
+     *     When it encounters the following, it removes everything after it:
+     *     <p> ", "
+     *     <p> "("
+     *     By doing this, however, it could cause serious problems when processing IUPAC names.
+     *     Probably want to use this only in situations where ID generation experiences issues due to
+     *     the "unclean" name.
+     * </p>
+     * @param name the name to be cleaned as a <tt>String</tt>
+     * @return the cleaned name as a <tt>String</tt>
+     */
+    public static String cleanName(String name) {
+        if(name.contains(", ")) {
+            name = name.substring(0, name.indexOf(", "));
+        }
+        if(name.contains("(")) {
+            name = name.substring(0, name.indexOf("("));
+        }
+
+        return name;
     }
 
 
@@ -78,6 +105,7 @@ public class IDGet {
         url = url.concat(typeToken);
 
         // Format and add the chemical name "radical" to the URL
+        // Maybe move this to a different class, possibly cleanName
         for(int i=0; i<chemName.length(); i++) {
             if(chemName.charAt(i) == ' ') {
                 chemName = chemName.substring(0,i) + "_" + chemName.substring(i+1);

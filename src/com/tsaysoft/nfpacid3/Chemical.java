@@ -1,5 +1,6 @@
 package com.tsaysoft.nfpacid3;
 
+import com.sun.istack.internal.Nullable;
 import com.sun.org.apache.regexp.internal.RE;
 
 import java.util.EnumMap;
@@ -22,6 +23,7 @@ public class Chemical {
     // --------------------
     // VARIABLES AND DATA
     // --------------------
+
     private String name;
     private EnumMap<ChemProp, Integer> properties = new EnumMap<>(ChemProp.class);
     private EnumMap<ChemSpecial, Boolean> specials = new EnumMap<>(ChemSpecial.class);
@@ -47,7 +49,7 @@ public class Chemical {
      *
      * @see com.tsaysoft.nfpacid3.Chemical#Chemical(String, int, int, int, boolean[])
      */
-    public Chemical(String chemName, int health, int flammability, int reactivity) {
+    public Chemical(@Nullable String chemName, int health, int flammability, int reactivity) {
         this(chemName, health, flammability, reactivity, null);
     }
 
@@ -66,7 +68,7 @@ public class Chemical {
      *
      * @see com.tsaysoft.nfpacid3.Chemical#Chemical(String, int, int, int)
      */
-    public Chemical(String chemName, int health, int flammability, int reactivity, boolean[] special) {
+    public Chemical(@Nullable String chemName, int health, int flammability, int reactivity, boolean[] special) {
         super();
 
         name = chemName;
@@ -102,7 +104,7 @@ public class Chemical {
      * @param props <tt>EnumMap</tt> containing the chemical's properties information
      * @throws IllegalArgumentException if the input <tt>EnumMap</tt> is invalid
      */
-    public Chemical(String chemName, EnumMap<ChemProp, Integer> props) throws IllegalArgumentException{
+    public Chemical(@Nullable String chemName, EnumMap<ChemProp, Integer> props) throws IllegalArgumentException{
         super();
         name = chemName;
         if(props.containsKey(HEALTH) &&
@@ -132,7 +134,7 @@ public class Chemical {
      * @param specs <tt>EnumMap</tt> containing the chemical's special properties/symbols information
      * @throws IllegalArgumentException if the input <tt>EnumMap</tt> is invalid
      */
-    public Chemical(String chemName, EnumMap<ChemProp, Integer> props, EnumMap<ChemSpecial, Boolean> specs) throws IllegalArgumentException{
+    public Chemical(@Nullable String chemName, EnumMap<ChemProp, Integer> props, EnumMap<ChemSpecial, Boolean> specs) throws IllegalArgumentException{
         this(chemName, props);
         specials = specs;
     }
@@ -149,6 +151,14 @@ public class Chemical {
      */
     public String getName() {
         return name;
+    }
+
+    /**
+     * Sets the name of the <tt>Chemical</tt>.
+     * @param newName the new name of the chemical is a <tt>String</tt>
+     */
+    public void setName(@Nullable String newName) {
+        name = newName;
     }
 
     /**
@@ -196,6 +206,37 @@ public class Chemical {
     }
 
     /**
+     * Sets a specific hazard rating of the <tt>Chemical</tt>.
+     * @param prop the <tt>ChemProp</tt> property to be set
+     * @param newRating the new rating of the property to be set
+     */
+    public void setProp(ChemProp prop, int newRating) {
+        properties.put(prop, newRating);
+    }
+
+    /**
+     * Sets the hazard ratings of the <tt>Chemical</tt>.
+     * <p>
+     *     The provided <tt>EnumMap</tt> argument <b>must</b> contain all of the required <tt>enum</tt>s
+     *     as specified in the <tt>ChemID</tt> class.
+     * </p>
+     * @param newProperties an <tt>EnumMap</tt> that contains <tt>ChemProp</tt> and <tt>Integer</tt> information
+     * @return whether the attempted operation succeeded or not
+     */
+    public boolean setProps(EnumMap<ChemProp, Integer> newProperties) {
+        if(newProperties.containsKey(HEALTH) &&
+                newProperties.containsKey(FLAMMABILITY) &&
+                newProperties.containsKey(REACTIVITY)) {
+            properties.put(HEALTH, newProperties.get(HEALTH));
+            properties.put(FLAMMABILITY, newProperties.get(FLAMMABILITY));
+            properties.put(REACTIVITY, newProperties.get(REACTIVITY));
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    /**
      * Gets the presence of a specific special hazard symbol of the chemical.
      * <p>
      *     Takes an {@code enum} that refers to the symbol(s) inside the white square of the
@@ -224,6 +265,26 @@ public class Chemical {
      */
     public EnumMap<ChemSpecial, Boolean> getSpecials() {
         return specials;
+    }
+
+    /**
+     * Sets a specific special symbol of the <tt>Chemical</tt>.
+     * @param spec the <tt>ChemSpecial</tt> special symbol to be set
+     * @param newBoolean the new <tt>boolean</tt> of the special symbol to be set
+     */
+    public void setSpecial(ChemSpecial spec, boolean newBoolean) {
+        specials.put(spec, newBoolean);
+    }
+
+    /**
+     * Sets the special symbols of the <tt>Chemical</tt>.
+     * <p>
+     *     There are no restrictions on what the provided <tt>EnumMap</tt> must contain.
+     * </p>
+     * @param newSpecials an <tt>EnumMap</tt> that contains <tt>ChemSpecial</tt> and <tt>Boolean</tt> information
+     */
+    public void setSpecials(EnumMap<ChemSpecial, Boolean> newSpecials) {
+        specials = newSpecials;
     }
 
 
@@ -262,6 +323,7 @@ public class Chemical {
      *     After generation, IDs are stored in an <tt>EnumMap</tt> named <tt>ids</tt>.
      *     By default, there are no IDs available.
      *     Used to prevent slowdowns as only the queried {@code Chemical}s need ID's.
+     *     Note that a chemical with a <tt>null</tt> or blank name will <b>not</b> attempt to generate an ID.
      * </p>
      * @param id the ID type requested to be generated
      * @return the generated ID as a <tt>String</tt>
@@ -272,7 +334,11 @@ public class Chemical {
             idTemp = IDGet.requestID(name, id);
             if(idTemp != null) {
                 ids.put(id, idTemp);
+            } else {
+                System.out.println("ID null - ChemID not generated");
             }
+        } else {
+            System.out.println("name null or blank - ChemID not generated");
         }
         return idTemp;
     }

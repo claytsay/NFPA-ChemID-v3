@@ -12,6 +12,8 @@ least hazardous and 4 being the most:
   - *Health* (blue): the danger posed to human health
   - *Flammability* (red): the flammability of the chemical(s)
   - *Reactivity* (yellow): the reactivity, aside from flammability
+See [ChemProp.java](https://github.com/claytsay/NFPA-ChemID-v3/blob/master/src/com/tsaysoft/nfpacid3/ChemProp.java) for more information on the relation between the assigned
+numbers and the hazards posed.
 
 The last category has symbols that indicate special properties of the chemicals:
   - *OX*: is an oxidizer (e.g. potassium nitrate, KNO3)
@@ -35,8 +37,8 @@ A quick run-down of the functioning of this program:
     melting point, common uses)
 
 Currently, this program is in the pre-alpha stage of development, having little
-functionality and almost no UI. In its current state, it cannot take any user
-input. \(\>\_\<\)
+functionality and almost no UI. In its current state, it can take basic user
+input. \(\^\_\^\)
 
 
 ## Program To-Do
@@ -45,12 +47,32 @@ input. \(\>\_\<\)
   - [ ] Find a way to indicate program versions
   - [ ] Figure out how to exclude certain files from being uploaded to GitHub
   - [ ] Acquire more databases (especially Wikipedia/MediaWiki)
-  - [ ] Find a more reliable way to convert chemical name to ID
+  - [ ] Find a more reliable way to convert chemical name to ID (maybe http://opsin.ch.cam.ac.uk/)
   - [X] Fix the program so that it actually works
+
+## Project History
+Being one to live in suburban areas, I am no stranger to NFPA 704 fire diamonds.
+Once I learned how to read them, I wanted to be able to know what chemicals
+specifically were in certain areas. I came up with the idea for this app in
+2014.
+
+My first attempt at making an app utilized [Scratch](https://scratch.mit.edu/), a rudimentary
+"language" in which I hard-coded NFPA 704 values in. (It took quite a while to
+get all those if-then statements to work.) See the project [here](https://scratch.mit.edu/projects/25674264/).
+
+My second attempt involved the use of [AppInventor](http://appinventor.mit.edu/explore/), a more advanced but still
+Scratch-like "language." This time, I tried to make a database to store all the
+chemical information and got a "legitimately-working" app. However, the UI was
+quite limited and the app overall was quite unpolished.
+
+Currently, I am on my third attempt at realizing the idea of NFPA 704
+identification. Once this code works, I am planning to use Android Studio to
+create a clean and user-friendly app that I can use. (Somehow, I doubt that
+any sane person would find this app as interesting as I do.)
 
 ## Further reading
   - [NFPA 704](https://en.wikipedia.org/wiki/NFPA_704)
-  - [Sodium hypochlorite](https://en.wikipedia.org/wiki/Sodium_hypochlorite)
+  - [Sodium hypochlorite](https://en.wikipedia.org/wiki/Sodium_hypochlorite) ("active ingredient" in bleach)
   - [Chemical Translation Service](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2951090/)
   - [CTS API](http://cts.fiehnlab.ucdavis.edu/moreServices/index)
 

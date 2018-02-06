@@ -229,11 +229,11 @@ public class ChemDB implements ChemDBInterface{
                     chemJSONObject = (JSONObject) obj;
 
                     // Convert the JSON information to processable information
-                    nameTemp = chemJSONObject.get("FIELD1").toString();
-                    propsTemp.put(HEALTH, Integer.parseInt(chemJSONObject.get("FIELD2").toString()));
-                    propsTemp.put(FLAMMABILITY, Integer.parseInt(chemJSONObject.get("FIELD3").toString()));
-                    propsTemp.put(REACTIVITY, Integer.parseInt(chemJSONObject.get("FIELD4").toString()));
-                    specialTempString = chemJSONObject.get("FIELD5").toString().toUpperCase();
+                    nameTemp = chemJSONObject.get("NAME").toString();
+                    propsTemp.put(HEALTH, Integer.parseInt(chemJSONObject.get("HEALTH").toString()));
+                    propsTemp.put(FLAMMABILITY, Integer.parseInt(chemJSONObject.get("FLAMMABILITY").toString()));
+                    propsTemp.put(REACTIVITY, Integer.parseInt(chemJSONObject.get("REACTIVITY").toString()));
+                    specialTempString = chemJSONObject.get("SPECIAL").toString().toUpperCase();
 
                     // Access the special symbols string and put individual symbols into array spots
                     if (!specialTempString.equals("")) {
