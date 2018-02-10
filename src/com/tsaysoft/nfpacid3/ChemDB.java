@@ -18,7 +18,7 @@ import static com.tsaysoft.nfpacid3.ChemProp.*;
 import static com.tsaysoft.nfpacid3.ChemSpecial.*;
 
 /**
- * A database to store <tt>Chemical</tt>s.
+ * A database to store {@link Chemical}s.
  * <p>
  *     The fundamental unit of the database side of the program.
  *     Takes in a file name (currently, can only handle JSON),  opens that file, and uses the file's information
@@ -29,6 +29,7 @@ import static com.tsaysoft.nfpacid3.ChemSpecial.*;
  * @see com.tsaysoft.nfpacid3.ChemDBManager
  *
  * @author Clay Tsay
+ * @version 00.01.00
  */
 public class ChemDB implements ChemDBInterface{
 
@@ -59,6 +60,8 @@ public class ChemDB implements ChemDBInterface{
      *     See the existing data sets for examples.
      * </p>
      * @param fileName the name of the file to be read
+     *
+     * @since 00.01.00
      */
     public ChemDB(String fileName) {
         //readCSV(fileName);
@@ -80,6 +83,8 @@ public class ChemDB implements ChemDBInterface{
      * @param query the chemical with properties to be queried
      * @param special whether the special symbols should be taken into account in comparisons
      * @return an <tt>ArrayList</tt> of <tt>Chemical</tt>s matching the properties and/or specials
+     *
+     * @since 00.01.00
      */
     @Override
     public ArrayList<Chemical> queryChemNFPA(Chemical query, boolean special) {
@@ -101,6 +106,7 @@ public class ChemDB implements ChemDBInterface{
      * @return an <tt>ArrayList</tt> of <tt>Chemical</tt>s matching the properties
      *
      * @see ChemDBInterface#queryEnumMapNFPA(EnumMap, EnumMap)
+     * @since 00.01.00
      */
     @Override
     public ArrayList<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties) {
@@ -118,6 +124,7 @@ public class ChemDB implements ChemDBInterface{
      * @return an <tt>ArrayList</tt> of <tt>Chemical</tt>s matching the properties
      *
      * @see ChemDBInterface#queryEnumMapNFPA(EnumMap)
+     * @since 00.01.00
      */
     @Override
     public ArrayList<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties, EnumMap<ChemSpecial, Boolean> specials) {

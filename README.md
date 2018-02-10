@@ -9,18 +9,22 @@ that is the cause for diamond-shaped signs which help emergency personnel to
 understand and effectively respond to chemical hazards. In three of the
 categories, chemicals are assigned scores between 0 and 4, with 0 being the
 least hazardous and 4 being the most:
+
   - *Health* (blue): the danger posed to human health
   - *Flammability* (red): the flammability of the chemical(s)
   - *Reactivity* (yellow): the reactivity, aside from flammability
+
 See [ChemProp.java](https://github.com/claytsay/NFPA-ChemID-v3/blob/master/src/com/tsaysoft/nfpacid3/ChemProp.java) for more information on the relation between the assigned
 numbers and the hazards posed.
 
 The last category has symbols that indicate special properties of the chemicals:
+
   - *OX*: is an oxidizer (e.g. potassium nitrate, KNO3)
   - *SA*: is a simple asphyxiant gas (e.g. nitrogen gas, N2)
   - *~~W~~*: reacts violently with water (e.g. methyl isocyanate, CH3NCO)
 
 For example, the compound sodium hypochlorite (NaClO) has the following ratings:
+
   - Health: 2 -> Intense or continued exposure could cause harm
   - Flammability: 0 -> Will not burn under typical fire conditions
   - Reactivity: 1 -> Normally stable, but can be unstable in specific situations
@@ -43,18 +47,19 @@ input. \(\^\_\^\)
 
 ## Program To-Do
   - [ ] Write more Javadocs and add more tags to existing ones
-  - [X] Implement ways to HTTP request different chemical ID forms
-  - [ ] Find a way to indicate program versions
   - [ ] Figure out how to exclude certain files from being uploaded to GitHub
   - [ ] Acquire more databases (especially Wikipedia/MediaWiki)
-  - [ ] Find a more reliable way to convert chemical name to ID (maybe http://opsin.ch.cam.ac.uk/)
+  - [ ] Get the IDGManager class working
+  - [ ] Improve chemical name String "cleaning"
+  - [X] Find a way to indicate program versions
+  - [X] Find a (possibly) more reliable way to convert chemical name to ID
   - [X] Fix the program so that it actually works
+  - [X] Implement ways to HTTP request different chemical ID forms
 
 ## Project History
 Being one to live in suburban areas, I am no stranger to NFPA 704 fire diamonds.
 Once I learned how to read them, I wanted to be able to know what chemicals
-specifically were in certain areas. I came up with the idea for this app in
-2014.
+specifically were in certain areas. I came up with the idea for this app in 2014.
 
 My first attempt at making an app utilized [Scratch](https://scratch.mit.edu/), a rudimentary
 "language" in which I hard-coded NFPA 704 values in. (It took quite a while to
@@ -74,7 +79,8 @@ any sane person would find this app as interesting as I do.)
   - [NFPA 704](https://en.wikipedia.org/wiki/NFPA_704)
   - [Sodium hypochlorite](https://en.wikipedia.org/wiki/Sodium_hypochlorite) ("active ingredient" in bleach)
   - [Chemical Translation Service](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2951090/)
-  - [CTS API](http://cts.fiehnlab.ucdavis.edu/moreServices/index)
+  - [OPSIN](http://opsin.ch.cam.ac.uk/information.html)
 
 ## Miscellaneous
 This README.md was created with the help of this [GitHub guide](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
+The Javadocs were created with the help of Wikipedia's [Javadoc](https://en.wikipedia.org/wiki/Javadoc) article.

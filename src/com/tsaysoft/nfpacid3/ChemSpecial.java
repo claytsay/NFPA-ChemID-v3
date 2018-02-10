@@ -12,6 +12,7 @@ package com.tsaysoft.nfpacid3;
  * </p>
  *
  * @author Clay Tsay
+ * @version 00.01.00
  */
 public enum ChemSpecial {
     /**
@@ -19,6 +20,8 @@ public enum ChemSpecial {
      * <p>
      *     e.g. KNO3, KClO3
      * </p>
+     *
+     * @since 00.01.00
      */
     OXIDIZER,
 
@@ -27,6 +30,8 @@ public enum ChemSpecial {
      * <p>
      *     e.g. N2, Ar
      * </p>
+     *
+     * @since 00.01.00
      */
     SIMPLE_ASPHYXIANT,
 
@@ -35,6 +40,8 @@ public enum ChemSpecial {
      * <p>
      *     e.g. CH3NCO (a.k.a. MIC), CaC2
      * </p>
+     *
+     * @since 00.01.00
      */
     WATER_REACT;
 }

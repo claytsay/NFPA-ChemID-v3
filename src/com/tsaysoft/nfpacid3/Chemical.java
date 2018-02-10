@@ -1,22 +1,20 @@
 package com.tsaysoft.nfpacid3;
 
 import com.sun.istack.internal.Nullable;
-import com.sun.org.apache.regexp.internal.RE;
-
 import java.util.EnumMap;
-import java.util.Set;
 
 import static com.tsaysoft.nfpacid3.ChemProp.*;
 import static com.tsaysoft.nfpacid3.ChemSpecial.*;
-import static com.tsaysoft.nfpacid3.ChemID.*;
 
 /**
  * Represents a chemical and its associated information.
  * <p>
  *     Carries NFPA 704 information and chemical ID information.
+ *     Can ask an {@link IDGetter} to retrieve a chemical ID from a name.
  * </p>
  *
  * @author Clay Tsay
+ * @version 00.01.00
  */
 public class Chemical {
 
@@ -29,6 +27,8 @@ public class Chemical {
     private EnumMap<ChemSpecial, Boolean> specials = new EnumMap<>(ChemSpecial.class);
     private EnumMap<ChemID, String> ids = new EnumMap<>(ChemID.class);
 
+    private static IDGetter idg = new FiehnIDG();
+
 
 
     // --------------------
@@ -37,10 +37,6 @@ public class Chemical {
 
     /**
      * Constructs an instance of {@code Chemical} without special symbols.
-     * <p>
-     *     This function is relatively depreciated due to the switch to using <tt>EnumMap</tt>s to
-     *     store information.
-     * </p>
      *
      * @param chemName name of the chemical
      * @param health health rating of the chemical
@@ -48,6 +44,9 @@ public class Chemical {
      * @param reactivity reactivity rating of the chemical
      *
      * @see com.tsaysoft.nfpacid3.Chemical#Chemical(String, int, int, int, boolean[])
+     * @deprecated This function is relatively depreciated due to the switch to using <tt>EnumMap</tt>s to
+     *     store information.
+     * @since 00.01.00
      */
     public Chemical(@Nullable String chemName, int health, int flammability, int reactivity) {
         this(chemName, health, flammability, reactivity, null);
@@ -55,10 +54,6 @@ public class Chemical {
 
     /**
      * Constructs an instance of {@code Chemical} with special symbols.
-     * <p>
-     *     This function is relatively depreciated due to the switch to using <tt>EnumMap</tt>s to
-     *     store information.
-     * </p>
      *
      * @param chemName name of the chemical
      * @param health health rating of the chemical
@@ -67,6 +62,9 @@ public class Chemical {
      * @param special array terms correspond to symbols: {@code 0} = OX, {@code 1} = SA, {@code 2} = W
      *
      * @see com.tsaysoft.nfpacid3.Chemical#Chemical(String, int, int, int)
+     * @deprecated This function is relatively depreciated due to the switch to using <tt>EnumMap</tt>s to
+     *     store information.
+     * @since 00.01.00
      */
     public Chemical(@Nullable String chemName, int health, int flammability, int reactivity, boolean[] special) {
         super();
@@ -103,6 +101,8 @@ public class Chemical {
      * @param chemName name of the chemical
      * @param props <tt>EnumMap</tt> containing the chemical's properties information
      * @throws IllegalArgumentException if the input <tt>EnumMap</tt> is invalid
+     *
+     * @since 00.01.00
      */
     public Chemical(@Nullable String chemName, EnumMap<ChemProp, Integer> props) throws IllegalArgumentException{
         super();
@@ -133,6 +133,8 @@ public class Chemical {
      * @param props <tt>EnumMap</tt> containing the chemical's properties information
      * @param specs <tt>EnumMap</tt> containing the chemical's special properties/symbols information
      * @throws IllegalArgumentException if the input <tt>EnumMap</tt> is invalid
+     *
+     * @since 00.01.00
      */
     public Chemical(@Nullable String chemName, EnumMap<ChemProp, Integer> props, EnumMap<ChemSpecial, Boolean> specs) throws IllegalArgumentException{
         this(chemName, props);
@@ -148,6 +150,8 @@ public class Chemical {
     /**
      * Gets the name of the chemical.
      * @return the chemical name as a {@code String}
+     *
+     * @since 00.01.00
      */
     public String getName() {
         return name;
@@ -156,6 +160,8 @@ public class Chemical {
     /**
      * Sets the name of the <tt>Chemical</tt>.
      * @param newName the new name of the chemical is a <tt>String</tt>
+     *
+     * @since 00.01.00
      */
     public void setName(@Nullable String newName) {
         name = newName;
@@ -169,6 +175,8 @@ public class Chemical {
      *     //TODO Fix ID issues
      * </p>
      * @return the chemical ID code as a {@code String}
+     *
+     * @since 00.01.00
      */
     public String getID(ChemID idType) {
         return ids.get(idType);
@@ -185,6 +193,7 @@ public class Chemical {
      *
      * @see com.tsaysoft.nfpacid3.ChemProp
      * @see Chemical#getProps()
+     * @since 00.01.00
      */
     public int getProp(ChemProp prop) {
         return properties.get(prop);
@@ -200,6 +209,7 @@ public class Chemical {
      *
      * @see com.tsaysoft.nfpacid3.ChemProp
      * @see Chemical#getProp(ChemProp)
+     * @since 00.01.00
      */
     public EnumMap<ChemProp, Integer> getProps() {
         return properties;
@@ -209,6 +219,8 @@ public class Chemical {
      * Sets a specific hazard rating of the <tt>Chemical</tt>.
      * @param prop the <tt>ChemProp</tt> property to be set
      * @param newRating the new rating of the property to be set
+     *
+     * @since 00.01.00
      */
     public void setProp(ChemProp prop, int newRating) {
         properties.put(prop, newRating);
@@ -222,6 +234,8 @@ public class Chemical {
      * </p>
      * @param newProperties an <tt>EnumMap</tt> that contains <tt>ChemProp</tt> and <tt>Integer</tt> information
      * @return whether the attempted operation succeeded or not
+     *
+     * @since 00.01.00
      */
     public boolean setProps(EnumMap<ChemProp, Integer> newProperties) {
         if(newProperties.containsKey(HEALTH) &&
@@ -246,7 +260,8 @@ public class Chemical {
      * @return the presence of the special hazard symbol as a {@code boolean}
      *
      * @see com.tsaysoft.nfpacid3.ChemSpecial
-     * @see Chemical#getSpecials()
+     * @see Chemical#getSpecials
+     * @since 00.01.00
      */
     public boolean getSpecial(ChemSpecial special) {
         return specials.get(special);
@@ -262,6 +277,7 @@ public class Chemical {
      *
      * @see com.tsaysoft.nfpacid3.ChemSpecial
      * @see Chemical#getSpecial(ChemSpecial)
+     * @since 00.01.00
      */
     public EnumMap<ChemSpecial, Boolean> getSpecials() {
         return specials;
@@ -271,6 +287,8 @@ public class Chemical {
      * Sets a specific special symbol of the <tt>Chemical</tt>.
      * @param spec the <tt>ChemSpecial</tt> special symbol to be set
      * @param newBoolean the new <tt>boolean</tt> of the special symbol to be set
+     *
+     * @since 00.01.00
      */
     public void setSpecial(ChemSpecial spec, boolean newBoolean) {
         specials.put(spec, newBoolean);
@@ -282,6 +300,8 @@ public class Chemical {
      *     There are no restrictions on what the provided <tt>EnumMap</tt> must contain.
      * </p>
      * @param newSpecials an <tt>EnumMap</tt> that contains <tt>ChemSpecial</tt> and <tt>Boolean</tt> information
+     *
+     * @since 00.01.00
      */
     public void setSpecials(EnumMap<ChemSpecial, Boolean> newSpecials) {
         specials = newSpecials;
@@ -304,6 +324,8 @@ public class Chemical {
      * @param chem the {@code Chemical} to be compared with the current one
      * @param special whether the special symbols of the {@code Chemical}s should be considered
      * @return <tt>true</tt> if the NFPA values are the same, <tt>false</tt> if not
+     *
+     * @since 00.01.00
      */
     public boolean equalsNFPA(Chemical chem, boolean special) {
         boolean propSame = properties.equals(chem.getProps());
@@ -327,11 +349,13 @@ public class Chemical {
      * </p>
      * @param id the ID type requested to be generated
      * @return the generated ID as a <tt>String</tt>
+     *
+     * @since 00.01.00
      */
     public String genChemID(ChemID id) {
         String idTemp = null;
         if(name != null && !name.equals("")) {
-            idTemp = IDGet.requestID(name, id);
+            idTemp = idg.requestID(name, id);
             if(idTemp != null) {
                 ids.put(id, idTemp);
             } else {

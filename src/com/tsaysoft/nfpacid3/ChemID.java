@@ -7,6 +7,7 @@ package com.tsaysoft.nfpacid3;
  * </p>
  *
  * @author Clay Tsay
+ * @version 00.01.00
  */
 public enum ChemID {
     /**
@@ -16,6 +17,7 @@ public enum ChemID {
      *     The numerical ID is called a CASRN (CAS Registry Number) or CAS Number.
      * </p>
      * @see <a href="https://www.cas.org/about/faqs">https://www.cas.org/about/faqs</a>
+     * @since 00.01.00
      */
     CASRN,
 
@@ -25,6 +27,7 @@ public enum ChemID {
      *     The Compound Identification Number (CID) is used by PubChem to identify chemical compounds.
      * </p>
      * @see <a href="https://pubchem.ncbi.nlm.nih.gov/upload/docs/upload_faq.html#UIDtypes">https://pubchem.ncbi.nlm.nih.gov/upload/docs/upload_faq.html#UIDtypes</a>
+     * @since 00.01.00
      */
     CID,
 
@@ -36,9 +39,16 @@ public enum ChemID {
      *     <p><b>InChI Key</b> is a computer-friendly ID format that is not readable to chemists.
      * </p>
      * @see <a href="https://iupac.org/who-we-are/divisions/division-details/inchi/">https://iupac.org/who-we-are/divisions/division-details/inchi/</a>
+     * @since 00.01.00
      */
     InChI_Key;
 
+    /**
+     * Overrides the <tt>toString</tt> to print out the abbreviation/acronym of the ID type.
+     * @return the non-hashmap "toString" of the <tt>ChemID</tt> type
+     *
+     * @since 00.01.00
+     */
     @Override
     public String toString() {
         switch(this) {

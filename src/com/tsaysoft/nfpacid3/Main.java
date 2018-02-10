@@ -7,6 +7,12 @@ import java.util.Scanner;
 import static com.tsaysoft.nfpacid3.ChemID.*;
 import static com.tsaysoft.nfpacid3.ChemProp.*;
 
+/**
+ * This is really just a class to test out the functionality of the program.
+ * <p>
+ *     There's not much else to this. (>_<)
+ * </p>
+ */
 public class Main {
 
     public static void main(String[] args) {
@@ -32,6 +38,7 @@ public class Main {
         System.out.println("Reactivity: ");
         queryEnumMap.put(REACTIVITY,scanner.nextInt());
 
+        // TODO: Conduct proper testing with special symbols to ensure that they work when querying
         //queryEnumMap2.put(ChemSpecial.SIMPLE_ASPHYXIANT, true);
 
         ArrayList<Chemical> results = database.queryEnumMapNFPA(queryEnumMap/*, queryEnumMap2*/);

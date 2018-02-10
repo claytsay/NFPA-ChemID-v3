@@ -13,6 +13,7 @@ package com.tsaysoft.nfpacid3;
  * </p>
  *
  * @author Clay Tsay
+ * @version 00.01.00
  */
 public enum ChemProp {
 
@@ -28,6 +29,8 @@ public enum ChemProp {
      *     <p><b>3</b> - Short exposure could cause serious temporary or moderate residual injury.
      *     <p><b>4</b> - Very short exposure could cause death or major residual injury.
      * </p>
+     *
+     * @since 00.01.00
      */
     HEALTH,
 
@@ -44,6 +47,8 @@ public enum ChemProp {
      *     <p><b>4</b> - Will rapidly or completely vaporize at normal atmospheric
      *     pressure and temperature, or is readily dispersed in air and will burn readily.
      * </p>
+     *
+     * @since 00.01.00
      */
     FLAMMABILITY,
 
@@ -61,6 +66,8 @@ public enum ChemProp {
      *     <p><b>4</b> - Readily capable of detonation or explosive decomposition at normal temperatures
      *     and pressures.
      * </p>
+     *
+     * @since 00.01.00
      */
     REACTIVITY;
 }
