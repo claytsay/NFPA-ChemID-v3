@@ -5,6 +5,15 @@ This document is designed to list out the past and present versions
 of the program and to document the changes involved with each new version.
 
 ##Log
+###00.01.01
+- Changed methods to "be more general" as it is
+supposedly good programming practice (e.g. ArrayList -> List)
+- Improved Javadocs with "ul" and "li" tags
+- Improved Chemical to generate with symbols defaulted as "false"
+(unless specified otherwise)
+  - Made querying with special symbols work
+  
+  
 ###00.01.00
 - "Initial release"
 - Changed 'IDGet' to an abstract class to allow for different

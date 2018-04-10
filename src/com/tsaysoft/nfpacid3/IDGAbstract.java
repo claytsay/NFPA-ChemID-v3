@@ -11,13 +11,12 @@ import java.net.URL;
  *     Handles the HTTP request involved in converting a chemical name to a specified chemical ID.
  *     ID type is specified by using <tt>enum</tt>s from {@link ChemID}.
  *     Subclasses are denoted by the name of the service they use and the letters "IDG".
- *     TODO: Maybe rename this to <i>IDG</i> to avoid confusion.
  * </p>
  *
  * @author Clay Tsay
  * @version 00.01.00
  */
-public abstract class IDGetter implements IDGInterface{
+public abstract class IDGAbstract implements IDGInterface{
 
     // --------------------
     // VARIABLES AND DATA

@@ -12,6 +12,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.EnumMap;
 
 import static com.tsaysoft.nfpacid3.ChemProp.*;
@@ -40,12 +41,12 @@ public class ChemDB implements ChemDBInterface{
     /**
      * Stores the chemicals contained in the <tt>ChemDB</tt>'s database.
      */
-    private ArrayList<Chemical> chemList = new ArrayList<>();
+    private Collection<Chemical> chemList = new ArrayList<>();
 
     /**
      * Temporary storage utilized in the processing of the database files.
      */
-    private ArrayList<String[]> chemArray = new ArrayList<>();
+    private Collection<String[]> chemArray = new ArrayList<>();
 
 
 
@@ -82,12 +83,12 @@ public class ChemDB implements ChemDBInterface{
      * </p>
      * @param query the chemical with properties to be queried
      * @param special whether the special symbols should be taken into account in comparisons
-     * @return an <tt>ArrayList</tt> of <tt>Chemical</tt>s matching the properties and/or specials
+     * @return a <tt>Collection</tt> of <tt>Chemical</tt>s matching the properties and/or specials
      *
      * @since 00.01.00
      */
     @Override
-    public ArrayList<Chemical> queryChemNFPA(Chemical query, boolean special) {
+    public Collection<Chemical> queryChemNFPA(Chemical query, boolean special) {
         ArrayList<Chemical> results = new ArrayList<>();
         for(Chemical chem : chemList) {
             if(chem.equalsNFPA(query, special)) {
@@ -103,13 +104,13 @@ public class ChemDB implements ChemDBInterface{
      *     Does <b>not</b> take into account the special symbols.
      * </p>
      * @param properties the <tt>EnumMap</tt> with properties to be queried
-     * @return an <tt>ArrayList</tt> of <tt>Chemical</tt>s matching the properties
+     * @return a <tt>Collection</tt> of <tt>Chemical</tt>s matching the properties
      *
      * @see ChemDBInterface#queryEnumMapNFPA(EnumMap, EnumMap)
      * @since 00.01.00
      */
     @Override
-    public ArrayList<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties) {
+    public Collection<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties) {
         Chemical query = new Chemical(null, properties);
         return queryChemNFPA(query, false);
     }
@@ -121,13 +122,13 @@ public class ChemDB implements ChemDBInterface{
      * </p>
      * @param properties the <tt>EnumMap</tt> with properties to be queried
      * @param specials the <tt>EnumMap</tt> with special symbols to be queried
-     * @return an <tt>ArrayList</tt> of <tt>Chemical</tt>s matching the properties
+     * @return a <tt>Collection</tt> of <tt>Chemical</tt>s matching the properties
      *
      * @see ChemDBInterface#queryEnumMapNFPA(EnumMap)
      * @since 00.01.00
      */
     @Override
-    public ArrayList<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties, EnumMap<ChemSpecial, Boolean> specials) {
+    public Collection<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties, EnumMap<ChemSpecial, Boolean> specials) {
         Chemical query = new Chemical(null, properties, specials);
         return queryChemNFPA(query, true);
     }
@@ -142,6 +143,7 @@ public class ChemDB implements ChemDBInterface{
      * NON-FUNCTIONAL - Takes a CSV file and converts it into an <tt>ArrayList</tt> of <tt>Chemical</tt>s.
      * <p>
      *     TODO: Fix this so that it works.
+     *     Then again, does this really need to work?
      * </p>
      *
      * @param fileName the name of the CSV file to be read
@@ -263,8 +265,6 @@ public class ChemDB implements ChemDBInterface{
                 }
             }
 
-        } catch (FileNotFoundException e) {
-            System.out.println(e + " - database could not be properly loaded");
         } catch (IOException e) {
             System.out.println(e + " - database could not be properly loaded");
         }
@@ -277,8 +277,8 @@ public class ChemDB implements ChemDBInterface{
      *     Note that the input <tt>String</tt> <b>must</b> be capitalised (i.e. <tt>toUpperCase()</tt>)
      *     for the method to work correctly.
      * </P>
-     * @param specialString
-     * @return
+     * @param specialString the <tt>String</tt> with the capitalised symbols
+     * @return an <tt>EnumMap</tt> with the proper symbols in <tt>enum</tt> format
      */
     private static EnumMap<ChemSpecial, Boolean> convertSpecialString(String specialString) {
         EnumMap<ChemSpecial, Boolean> results = new EnumMap<>(ChemSpecial.class);

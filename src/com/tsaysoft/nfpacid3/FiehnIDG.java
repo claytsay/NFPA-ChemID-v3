@@ -16,7 +16,7 @@ import org.json.*;
  * @author Clay Tsay
  * @version 00.01.00
  */
-public class FiehnIDG extends IDGetter{
+public class FiehnIDG extends IDGAbstract{
 
     // --------------------
     // VARIABLES AND DATA

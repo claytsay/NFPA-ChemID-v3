@@ -10,7 +10,7 @@ import static com.tsaysoft.nfpacid3.ChemSpecial.*;
  * Represents a chemical and its associated information.
  * <p>
  *     Carries NFPA 704 information and chemical ID information.
- *     Can ask an {@link IDGetter} to retrieve a chemical ID from a name.
+ *     Can ask an {@link IDGAbstract} to retrieve a chemical ID from a name.
  * </p>
  *
  * @author Clay Tsay
@@ -27,7 +27,7 @@ public class Chemical {
     private EnumMap<ChemSpecial, Boolean> specials = new EnumMap<>(ChemSpecial.class);
     private EnumMap<ChemID, String> ids = new EnumMap<>(ChemID.class);
 
-    private static IDGetter idg = new FiehnIDG();
+    private static IDGAbstract idg = new FiehnIDG();
 
 
 
@@ -105,17 +105,7 @@ public class Chemical {
      * @since 00.01.00
      */
     public Chemical(@Nullable String chemName, EnumMap<ChemProp, Integer> props) throws IllegalArgumentException{
-        super();
-        name = chemName;
-        if(props.containsKey(HEALTH) &&
-                props.containsKey(FLAMMABILITY) &&
-                props.containsKey(REACTIVITY)) {
-            properties.put(HEALTH, props.get(HEALTH));
-            properties.put(FLAMMABILITY, props.get(FLAMMABILITY));
-            properties.put(REACTIVITY, props.get(REACTIVITY));
-        } else {
-            throw new IllegalArgumentException("wrong EnumMap - Chemical not constructed");
-        }
+        this(chemName, props, null);
     }
 
     /**
@@ -137,8 +127,32 @@ public class Chemical {
      * @since 00.01.00
      */
     public Chemical(@Nullable String chemName, EnumMap<ChemProp, Integer> props, EnumMap<ChemSpecial, Boolean> specs) throws IllegalArgumentException{
-        this(chemName, props);
-        specials = specs;
+        name = chemName;
+        if(props.containsKey(HEALTH) &&
+                props.containsKey(FLAMMABILITY) &&
+                props.containsKey(REACTIVITY)) {
+            properties.put(HEALTH, props.get(HEALTH));
+            properties.put(FLAMMABILITY, props.get(FLAMMABILITY));
+            properties.put(REACTIVITY, props.get(REACTIVITY));
+        } else {
+            throw new IllegalArgumentException("wrong EnumMap - Chemical not constructed");
+        }
+
+        if (specs == null) {
+            for (ChemSpecial symbol : ChemSpecial.values()) {
+                this.specials.put(symbol, false);
+            }
+        } else {
+            for (ChemSpecial symbol : ChemSpecial.values()) {
+                Boolean tempBool = specs.get(symbol);
+                if (tempBool == null) {
+                    specials.put(symbol, false);
+                } else {
+                    specials.put(symbol, tempBool);
+                }
+            }
+        }
+
     }
 
 
@@ -172,7 +186,7 @@ public class Chemical {
      * <p>
      *     Has problems with chemicals with commas in their names.
      *     (e.g. "Phosphorus, amorphous, red")
-     *     //TODO Fix ID issues
+     *     TODO Fix ID issues
      * </p>
      * @return the chemical ID code as a {@code String}
      *
@@ -328,8 +342,30 @@ public class Chemical {
      * @since 00.01.00
      */
     public boolean equalsNFPA(Chemical chem, boolean special) {
-        boolean propSame = properties.equals(chem.getProps());
-        boolean specialSame = specials.equals(chem.getSpecials());
+        // TODO: Fix this so that it works. Currently, cannot "iterate" through EnumMap
+        /*EnumMap<ChemProp, Integer> chemProp = chem.getProps();
+        EnumMap<ChemSpecial, Boolean> chemSpecial = chem.getSpecials();
+        boolean propSame = true;
+        boolean specialSame = true;
+        Boolean tempSpecialChem;
+        Boolean tempSpecialThis;
+
+        for (ChemProp category : chemProp.keySet()) {
+            if (!chemProp.get(category).equals(this.properties.get(category))) {
+                propSame = false;
+            }
+        }
+        for (ChemSpecial symbol : chemSpecial.keySet()) {
+            tempSpecialChem = chemSpecial.get(symbol);
+            tempSpecialThis = this.getSpecial(symbol);
+
+            if (!chemSpecial.get(symbol).equals(this.specials.get(symbol))) {
+                specialSame = false;
+            }
+        }
+*/
+        boolean propSame = this.getProps().equals(chem.getProps());
+        boolean specialSame = this.getSpecials().equals(chem.getSpecials());
 
         if(special) {
             return propSame && specialSame;
@@ -372,6 +408,7 @@ public class Chemical {
     // --------------------
     // PRIVATE UTILITY METHODS
     // --------------------
+
 
 
 }

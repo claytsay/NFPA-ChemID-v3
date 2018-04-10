@@ -1,6 +1,7 @@
 package com.tsaysoft.nfpacid3;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.EnumMap;
 import java.util.Scanner;
 
@@ -18,35 +19,46 @@ public class Main {
     public static void main(String[] args) {
         // TODO: Fix the code below AFTER fixing the IDGet class so that it can be used for debugging.
 
-        //String[] databaseNames = {"DataSet_1_NFPA704.json","DataSet_2_NFPA704.json"};
-        //ChemDBManager database = new ChemDBManager(databaseNames);
-
         String[] fileNames = {"NFPA704_DataSet_1.json", "NFPA704_DataSet_2.json"};
         ChemDBManager database = new ChemDBManager(fileNames);
-        Scanner scanner = new Scanner(System.in);
 
         //int[] queryArray = new int[3];
         EnumMap<ChemProp, Integer> queryEnumMap = new EnumMap<>(ChemProp.class);
         EnumMap<ChemSpecial, Boolean> queryEnumMap2 = new EnumMap<>(ChemSpecial.class);
 
-        System.out.println("Health: ");
-        queryEnumMap.put(HEALTH,scanner.nextInt());
+        queryEnumMap.put(HEALTH, 1);
+        queryEnumMap.put(FLAMMABILITY, 0);
+        queryEnumMap.put(REACTIVITY, 3);
 
-        System.out.println("Flammability: ");
-        queryEnumMap.put(FLAMMABILITY,scanner.nextInt());
+        queryEnumMap2.put(ChemSpecial.OXIDIZER, true);
 
-        System.out.println("Reactivity: ");
-        queryEnumMap.put(REACTIVITY,scanner.nextInt());
+        Collection<Chemical> results = database.queryEnumMapNFPA(queryEnumMap, queryEnumMap2);
 
-        // TODO: Conduct proper testing with special symbols to ensure that they work when querying
-        //queryEnumMap2.put(ChemSpecial.SIMPLE_ASPHYXIANT, true);
-
-        ArrayList<Chemical> results = database.queryEnumMapNFPA(queryEnumMap/*, queryEnumMap2*/);
-
-        for(Chemical chem : results) {
-            chem.genChemID(InChI_Key);
-            System.out.println(chem.getName() + " - " + chem.getID(InChI_Key));
+        if(results.size() == 0) {
+            System.out.println("No results.");
+        } else {
+            for(Chemical chem : results) {
+                chem.genChemID(InChI_Key);
+                System.out.println(chem.getName() + " - " + chem.getID(InChI_Key));
+            }
         }
 
+    }
+
+    private static EnumMap<ChemProp, Integer> askChemicalProps() {
+        Scanner scanner = new Scanner(System.in);
+
+        EnumMap<ChemProp, Integer> q = new EnumMap<>(ChemProp.class);
+
+        System.out.println("Health: ");
+        q.put(HEALTH,scanner.nextInt());
+
+        System.out.println("Flammability: ");
+        q.put(FLAMMABILITY,scanner.nextInt());
+
+        System.out.println("Reactivity: ");
+        q.put(REACTIVITY,scanner.nextInt());
+
+        return q;
     }
 }

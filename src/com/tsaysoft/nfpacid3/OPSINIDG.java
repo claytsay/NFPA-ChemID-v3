@@ -16,8 +16,9 @@ import org.json.JSONObject;
  * @see <a href="http://opsin.ch.cam.ac.uk/">http://opsin.ch.cam.ac.uk/</a>
  *
  * @author Clay Tsay
+ * @version 00.01.00
  */
-public class OPSINIDG extends IDGetter{
+public class OPSINIDG extends IDGAbstract{
 
     // --------------------
     // VARIABLES AND DATA

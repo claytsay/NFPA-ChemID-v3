@@ -1,11 +1,9 @@
 package com.tsaysoft.nfpacid3;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashMap;
+import java.util.*;
 
 /**
- * <tt>IDGManager</tt>s manage multiple {@link IDGetter}s.
+ * <tt>IDGManager</tt>s manage multiple {@link IDGAbstract}s.
  * <p>
  *     Past experience has shown that it is difficult to query chemical IDs
  *     from chemical names as many names have added terms (e.g. "inhibited")
@@ -22,7 +20,7 @@ public class IDGManager implements IDGInterface{
     // VARIABLES AND DATA
     // --------------------
 
-    private ArrayList<IDGetter> IDGs = new ArrayList<>();
+    private List<IDGAbstract> IDGs = new ArrayList<>();
 
 
 
@@ -49,7 +47,7 @@ public class IDGManager implements IDGInterface{
      *
      * @since 00.01.00
      */
-    public IDGManager(IDGetter IDG) {
+    public IDGManager(IDGAbstract IDG) {
         super();
         IDGs.add(IDG);
     }
@@ -64,7 +62,7 @@ public class IDGManager implements IDGInterface{
      *
      * @since 00.01.00
      */
-    public IDGManager(Collection<IDGetter> IDGCollection) {
+    public IDGManager(Collection<IDGAbstract> IDGCollection) {
         super();
         IDGs.addAll(IDGCollection);
     }
@@ -76,15 +74,15 @@ public class IDGManager implements IDGInterface{
     @Override
     public String requestID(String chemName, ChemID id) {
         // Initialize variables
-        ArrayList<String> results = new ArrayList<>();
-        ArrayList<String> tokens = new ArrayList<>();
-        HashMap<String, Integer> idFreqs = new HashMap<>();
+        List<String> results = new ArrayList<>();
+        List<String> tokens = new ArrayList<>();
+        Map<String, Integer> idFreqs = new HashMap<>();
         Integer tempInt;
         String maxToken;
         int maxFreq = 0;
 
         // Ask all of the IDGetters for their IDs
-        for(IDGetter i : IDGs) {
+        for(IDGAbstract i : IDGs) {
             results.add(i.requestID(chemName, id));
         }
 
@@ -109,8 +107,10 @@ public class IDGManager implements IDGInterface{
 
         // If there is an ID with greatest frequency, return. If not, randomly choose.
 
-        // TODO: Get this method working
+        //TODO: Get this method working
         return null;
+
+
 
     }
 
@@ -118,6 +118,18 @@ public class IDGManager implements IDGInterface{
     // PRIVATE UTILITY METHODS
     // --------------------
 
+    private static String determineMax(List<String> strings) {
+        //Initialise variables
+        Map<String, Integer> map = new HashMap<String, Integer>();
+
+        // Initialise frequency table
+        for(String s : strings) {
+            Integer freq = map.get(s);
+            map.put(s, (freq == null) ? 1 : freq + 1);
+        }
+        return null;
+
+    }
 
 
 }

@@ -3,6 +3,7 @@ package com.tsaysoft.nfpacid3;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.EnumMap;
+import java.util.List;
 
 /**
  * Manages multiple chemical databases.
@@ -21,7 +22,7 @@ public class ChemDBManager implements ChemDBInterface{
     // VARIABLES AND DATA
     // --------------------
 
-    private ArrayList<ChemDB> databases = new ArrayList<>();
+    private List<ChemDB> databases = new ArrayList<>();
 
 
 
@@ -116,13 +117,13 @@ public class ChemDBManager implements ChemDBInterface{
      * </p>
      * @param query the chemical with properties to be queried
      * @param special whether the special symbols should be taken into account in comparisons
-     * @return an <tt>ArrayList</tt> of <tt>Chemical</tt>s matching the properties and/or specials
+     * @return a <tt>Collection</tt> of <tt>Chemical</tt>s matching the properties and/or specials
      *
      * @since 00.01.00
      */
     @Override
-    public ArrayList<Chemical> queryChemNFPA(Chemical query, boolean special) {
-        ArrayList<Chemical> results = new ArrayList<>();
+    public Collection<Chemical> queryChemNFPA(Chemical query, boolean special) {
+        List<Chemical> results = new ArrayList<>();
         for(ChemDB chemDB : databases) {
             results.addAll(chemDB.queryChemNFPA(query, special));
         }
@@ -138,13 +139,13 @@ public class ChemDBManager implements ChemDBInterface{
      * </p>
      *
      * @param properties the <tt>EnumMap</tt> with properties to be queried
-     * @return an <tt>ArrayList</tt> of <tt>Chemical</tt>s matching the properties
+     * @return a <tt>Collection</tt> of <tt>Chemical</tt>s matching the properties
      *
      * @see ChemDBInterface#queryEnumMapNFPA(EnumMap, EnumMap)
      * @since 00.01.00
      */
     @Override
-    public ArrayList<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties) {
+    public Collection<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties) {
         Chemical query = new Chemical(null, properties);
         return queryChemNFPA(query, false);
     }
@@ -157,13 +158,13 @@ public class ChemDBManager implements ChemDBInterface{
      *
      * @param properties the <tt>EnumMap</tt> with properties to be queried
      * @param specials   the <tt>EnumMap</tt> with special symbols to be queried
-     * @return an <tt>ArrayList</tt> of <tt>Chemical</tt>s matching the properties
+     * @return a <tt>Collection</tt> of <tt>Chemical</tt>s matching the properties
      *
      * @see ChemDBInterface#queryEnumMapNFPA(EnumMap)
      * @since 00.01.00
      */
     @Override
-    public ArrayList<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties, EnumMap<ChemSpecial, Boolean> specials) {
+    public Collection<Chemical> queryEnumMapNFPA(EnumMap<ChemProp, Integer> properties, EnumMap<ChemSpecial, Boolean> specials) {
         Chemical query = new Chemical(null, properties, specials);
         return queryChemNFPA(query, true);
     }
@@ -180,13 +181,13 @@ public class ChemDBManager implements ChemDBInterface{
      *     Duplication is determined by comparing chemical ID tokens.
      *     The type of <tt>ChemID</tt> compared is determined by a method argument.
      * </p>
-     * @param chemList the <tt>ArrayList</tt> of <tt>Chemical</tt>s to be cleaned
+     * @param chemList the <tt>List</tt> of <tt>Chemical</tt>s to be cleaned
      * @param id the <tt>ChemID</tt> type to be used for duplicate determination
-     * @return the cleaned <tt>ArrayList</tt> of <tt>Chemical</tt>s, free from duplicates
+     * @return the cleaned <tt>Collection</tt> of <tt>Chemical</tt>s, free from duplicates
      *
      * @since N/A
      */
-    private ArrayList<Chemical> removeDuplicates(ArrayList<Chemical> chemList, ChemID id) {
+    private Collection<Chemical> removeDuplicates(List<Chemical> chemList, ChemID id) {
         // Declare variables
         Chemical tempOrigin;
         Chemical tempInsertion;
